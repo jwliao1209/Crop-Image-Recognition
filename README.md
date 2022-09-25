@@ -23,6 +23,7 @@
    │   ├── ...
    ├── index
    │   ├── fold_1.csv
-   ├── train.py
+   ├── Step0_split_data.py
    │   ...
 ```
+Step0_split_data : 執行此程式前確保有將解壓縮資料放入dataset中~
