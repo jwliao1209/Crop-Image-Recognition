@@ -6,6 +6,7 @@ import pandas as pd
 np.random.seed(42)
 
 folders = os.listdir('dataset')
+folders = sorted(folders)
 Train_ratio = 0.8
 Valid_ratio = 0.1
 
