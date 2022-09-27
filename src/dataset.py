@@ -1,15 +1,12 @@
 import os
 import torch
 import pandas as pd
-import numpy as np
 from torch.utils.data import Dataset
 from monai.transforms import (Compose, AddChanneld, ToTensord, RandRotate90, RandFlipd,
                               RandCropByPosNegLabeld, CropForegroundd, EnsureTyped, RandSpatialCropSamplesd)
 from monai import transforms
 from src.transforms import *
 
-# data_file : train, valid 再切換抓不同模式的時候才能分辨
-# opt.type  : train, valid mode
 
 Lab2Cat = {1: 'asparagus',     2: 'bambooshoots',     3: 'betel',
  4: 'broccoli',      5: 'cauliflower',      6: 'chinesecabbage',
@@ -81,6 +78,18 @@ def get_train_val_dataset(opt):
     val_set = CropDataset(validframe, opt, val_transforms)
     return train_set, val_set
 
+
+def get_train_val_loader(opt):
+    train_set, val_set = get_train_val_dataset(opt)
+    train_loader = DataLoader(train_set,
+                              batch_size=opt.batch_size,
+                              shuffle=True,
+                              num_workers=opt.num_workers)
+    val_loader = DataLoader(val_set,
+                            batch_size=opt.batch_size,
+                            shuffle=False,
+                            num_workers=opt.num_workers)
+    return train_loader, val_loader
 
 
 
