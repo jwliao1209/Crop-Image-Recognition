@@ -67,10 +67,10 @@ def split_data(Train_ratio=0.8, Valid_ratio=0.1, csv_ID=0, folders=folders):
     tp = np.array([TotalTypes, Totalfolder, Totalfile]).T
 
     df = pd.DataFrame(tp, columns=["Type", "folder", "filename"])
-    df.to_csv(os.path.join("index", f'foldtest_{csv_ID}.csv'), index=False)
+    df.to_csv(os.path.join("index", f'fold_{csv_ID}.csv'), index=False)
     print("Finish splitting!")
     print(f"There are {TotalL} images, we split it into Training, Validation and Testing in \n ({Train_ratio*100:.0f}%){TotalL*Train_ratio:.0f}, ({Valid_ratio*100:.0f}%){TotalL*Valid_ratio:.0f} and ({(Test_ratio)*100:.0f}%){TotalL*Test_ratio:.0f}, respectively.")
-    print(f"The csv file is saved in {os.path.join('index', f'foldtest_{csv_ID}.csv')}")
+    print(f"The csv file is saved in {os.path.join('index', f'fold_{csv_ID}.csv')}")
 
 if __name__=="__main__":
     counter()
