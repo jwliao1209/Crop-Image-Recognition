@@ -6,6 +6,7 @@ import pandas as pd
 np.random.seed(42)
 
 folders = os.listdir('dataset')
+folders = sorted(folders)
 Train_ratio = 0.8
 Valid_ratio = 0.1
 
@@ -75,7 +76,7 @@ def split_data(Train_ratio=0.8, Valid_ratio=0.1, csv_ID=0, folders=folders):
 if __name__=="__main__":
     counter()
     print_label_with_name()
-    split_data(Train_ratio=0.8, Valid_ratio=0.1, folders=folders)
+    split_data(Train_ratio=0.8, Valid_ratio=0.1, csv_ID=0, folders=folders)
 
 
 
