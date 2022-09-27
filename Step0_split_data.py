@@ -16,16 +16,19 @@ def print_label_with_name():
         if os.path.isdir(os.path.join("dataset", folder)):
            Folder.append(folder)
     print(len(Folder))
-
-    maps = lambda x: (np.uint8(x.split('-')[1]), x.split('-')[0])
-    tp = dict(map(maps, Folder))
-    tp = dict(sorted(tp.items(), key=lambda x:x[0]))
-    print(tp)
+    L = len(Folder)
+    Folder = sorted(Folder)
+    Dict = dict(zip(np.arange(1, L+1), Folder))
+    # maps = lambda x: (np.uint8(x.split('-')[1]), x.split('-')[0])
+    # tp = dict(map(maps, Folder))
+    # tp = dict(sorted(tp.items(), key=lambda x:x[0]))
+    print(Dict)
+    return Dict
     
 def counter(): # list all data number in each folder
     ctrfile = 0
     for folder in os.listdir('dataset'):
-        locpath = os.path.join('dataset', folder, folder.split('-')[0])
+        locpath = os.path.join('dataset', folder)
         files = os.listdir(locpath)
         ctrfile+=len(files)
         # print(files)
@@ -33,12 +36,15 @@ def counter(): # list all data number in each folder
 
 
 def split_data(Train_ratio=0.8, Valid_ratio=0.1, csv_ID=0, folders=folders):
+    if Train_ratio + Valid_ratio>1:
+        raise AssertionError("R U Kidding Me?")
+
     TotalTypes = []
     Totalfolder = []
     Totalfile = []
 
     for idx, folder in enumerate(folders):
-        files = os.listdir(os.path.join("dataset", folder, folder.split('-')[0]))
+        files = os.listdir(os.path.join("dataset", folder))
         L = len(files)
         train_num = round(L*Train_ratio)
         valid_num = round(L*Valid_ratio)
@@ -67,9 +73,9 @@ def split_data(Train_ratio=0.8, Valid_ratio=0.1, csv_ID=0, folders=folders):
     print(f"The csv file is saved in {os.path.join('index', f'foldtest_{csv_ID}.csv')}")
 
 if __name__=="__main__":
-    # counter()
-    # print_label_with_name()
-    # split_data(Train_ratio=0.8, Valid_ratio=0.1, folders=folders)
+    counter()
+    print_label_with_name()
+    split_data(Train_ratio=0.8, Valid_ratio=0.1, folders=folders)
 
 
 
