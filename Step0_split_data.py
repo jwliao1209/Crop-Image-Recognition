@@ -11,7 +11,7 @@ Train_ratio = 0.8
 Valid_ratio = 0.1
 
 def print_label_with_name():
-    folders = os.listdir('dataset')
+    folders = sorted(os.listdir('dataset')) # need to sorted or it might be different
     Folder = []
     for folder in folders:
         if os.path.isdir(os.path.join("dataset", folder)):
