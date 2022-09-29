@@ -9,7 +9,7 @@ def compute_acc(pred, label):
     return acc
 
 
-def train_step(ep, model, train_loader, criterion, use_mc_loss, optimizer, device):
+def train_step(ep, model, train_loader, criterion, use_mc_loss, optimizer, device, lr_scheduler):
     model.train()
     total_num, correct, total_loss = 0, 0, 0
     train_bar = tqdm(train_loader, desc=f'Training {ep}')
@@ -45,6 +45,7 @@ def train_step(ep, model, train_loader, criterion, use_mc_loss, optimizer, devic
             'loss': f"{mean_loss:.4f}",
             'acc': f"{mean_acc:.4f}"
         })
+        lr_scheduler.step()
 
     train_bar.close()
     train_record = {
@@ -52,7 +53,7 @@ def train_step(ep, model, train_loader, criterion, use_mc_loss, optimizer, devic
         'acc': f"{mean_acc:.4f}"
     }
 
-    return train_record
+    return train_record, lr_scheduler
 
 
 def val_step(ep, model, val_loader, criterion, use_mc_loss, device):

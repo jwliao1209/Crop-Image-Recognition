@@ -41,8 +41,8 @@ def train(args):
     # Training
     for ep in range(1, args.epoch+1):
         # training step
-        train_record = train_step(
-            ep, model, train_loader, criterion, use_mc_loss, optimizer, device)
+        train_record, lr_scheduler = train_step(
+            ep, model, train_loader, criterion, use_mc_loss, optimizer, device, lr_scheduler)
         log.add(
             epoch=ep,
             type='train',
@@ -60,7 +60,7 @@ def train(args):
         )
         log.save()
         save_topk_ckpt(model, ep, val_record['acc'], weight_dir, topk=5)
-        lr_scheduler.step()
+        # lr_scheduler.step()
 
     return
 
@@ -72,6 +72,10 @@ if __name__ == '__main__':
                         help='folder default fold_0.csv')
     parser.add_argument('-bs', '--batch_size', type=int, default=10,
                         help='batch size')
+    parser.add_argument('--train_num', type=int, default=71608,
+                        help='default take all train data to training')
+    parser.add_argument('--valid_num', type=int, default=8954,
+                        help='default take all valid data to training')
     parser.add_argument('-ep', '--epoch', type=int, default=100,
                         help='epochs')
     parser.add_argument('-cls', '--num_classes', type=int, default=33,

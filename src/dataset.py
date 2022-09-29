@@ -60,24 +60,24 @@ class CropDataset(Dataset):
 
 def get_train_val_dataset(opt):
     df = pd.read_csv(os.path.join('index', f"fold_{opt.folder}.csv"))
-    trainframe = df[df["Type"]=="train"]
-    validframe = df[df["Type"]=="valid"]
+    trainframe = df[df["Type"]=="train"].iloc[:opt.train_num]
+    validframe = df[df["Type"]=="valid"].iloc[:opt.valid_num]
 
     train_transforms = Compose([
         read_imaged(keys=["image"]),
-        Resized(keys=['image']),
-        transforms.RandFlipd(keys=["image"], prob=0.5, spatial_axis=0),
-        transforms.RandFlipd(keys=["image"], prob=0.5, spatial_axis=1),
+        Resized(keys=['image'], size=(opt.img_size, opt.img_size)),
+        #transforms.RandFlipd(keys=["image"], prob=0.5, spatial_axis=0),
+        #transforms.RandFlipd(keys=["image"], prob=0.5, spatial_axis=1),
         transforms.NormalizeIntensityd(keys="image", nonzero=True, channel_wise=True),
-        transforms.RandScaleIntensityd(keys="image", factors=0.1, prob=1.0),
-        transforms.RandShiftIntensityd(keys="image", offsets=0.1, prob=1.0),
+        #transforms.RandScaleIntensityd(keys="image", factors=0.1, prob=1.0),
+        #transforms.RandShiftIntensityd(keys="image", offsets=0.1, prob=1.0),
         transforms.ToTensord(keys=["image", "label"]),
-        RandGaussNoised(keys=['image'], p=opt.prob_noise)
+        #RandGaussNoised(keys=['image'], p=opt.prob_noise)
     ])
 
     val_transforms = Compose([
         read_imaged(keys=["image"]),
-        Resized(keys=['image']),
+        Resized(keys=['image'], size=(opt.img_size, opt.img_size)),
         transforms.NormalizeIntensityd(keys="image", nonzero=True, channel_wise=True),
         transforms.ToTensord(keys=["image", "label"])
         ])

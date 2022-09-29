@@ -41,7 +41,10 @@ def load_json(path):
 
 def save_topk_ckpt(model, epoch, acc, save_dir, topk=5):
     save_name = f"ep={str(epoch):0>4}-acc={acc}.pth"
-    model.module.save(os.path.join(save_dir, save_name))
+    try:
+        model.module.save(os.path.join(save_dir, save_name))
+    except:
+        torch.save(model.state_dict(), os.path.join(save_dir, save_name))
     weight_list = sorted(
         glob.glob(os.path.join(save_dir, '*.pth')),
         key=lambda x: float(x[-10:-4]), reverse=True)
