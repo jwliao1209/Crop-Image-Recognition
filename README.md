@@ -1,4 +1,6 @@
 # Crop_Classification
+2022/09/29 新增train_num valid_num 可以決定要放多少訓練資料驗證資料進去訓練(基於同一個fold_0不變下)
+---
 
 HackMD https://hackmd.io/@sam23582211/SkNkYCaWj
 ```
@@ -20,46 +22,16 @@ HackMD https://hackmd.io/@sam23582211/SkNkYCaWj
    │   ├── dataset.py
    │   ├── ...
    ├── index
-   │   ├── fold_1.csv
+   │   ├── fold_0.csv (Train : Valid = 8:1)
+   │   ├── fold_1.csv (Train : Valid : Test = 0.05:0.01:0.94) for toy case test
    ├── Step0_split_data.py
+   ├── train.py
+   ├── train.sh
    │   ...
+
 ```
 Step0_split_data : 執行此程式前確保有將解壓縮資料放入dataset中~
 
-類別(照名字排序)  
-1: 'asparagus',  
-2: 'bambooshoots',  
-3: 'betel',  
-4: 'broccoli',  
-5: 'cauliflower',  
-6: 'chinesecabbage',  
-7: 'chinesechives',  
-8: 'custardapple',  
-9: 'grape',  
-10: 'greenhouse',  
-11: 'greenonion',  
-12: 'kale',  
-13: 'lemon',  
-14: 'lettuce',  
-15: 'litchi',  
-16: 'longan',  
-17: 'loofah',  
-18: 'mango',  
-19: 'onion',  
-20: 'others',  
-21: 'papaya',  
-22: 'passionfruit',  
-23: 'pear',  
-24: 'pennisetum',  
-25: 'redbeans',  
-26: 'roseapple',  
-27: 'sesbania',  
-28: 'soybeans',  
-29: 'sunhemp',  
-30: 'sweetpotato',  
-31: 'taro',  
-32: 'tea',  
-33: 'waterbamboo'  
 
 ### 這醜醜圖片之後會拿掉
 ![image](https://user-images.githubusercontent.com/93210989/192424422-f5863734-4a9d-4023-9fa8-add7c4d1741d.png)  
