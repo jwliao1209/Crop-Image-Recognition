@@ -60,8 +60,8 @@ class CropDataset(Dataset):
 
 def get_train_val_dataset(opt):
     df = pd.read_csv(os.path.join('index', f"fold_{opt.folder}.csv"))
-    trainframe = df[df["Type"]=="train"].iloc[:opt.train_num]
-    validframe = df[df["Type"]=="valid"].iloc[:opt.valid_num]
+    trainframe = df[df["Type"]=="train"].sample(frac=1, random_state=opt.seed)[:opt.train_num]
+    validframe = df[df["Type"]=="valid"].sample(frac=1, random_state=opt.seed)[:opt.valid_num]
 
     train_transforms = Compose([
         read_imaged(keys=["image"]),

@@ -120,7 +120,7 @@ if __name__ == '__main__':
                         help='numbers of workers')
     parser.add_argument('--device', type=int, default=[0], nargs='+',
                         help='index of gpu device')
-    parser.add_argument('--seed', type=int, default=614,
+    parser.add_argument('--seed', type=int, default=42,
                         help='random seed')
 
     # set path
