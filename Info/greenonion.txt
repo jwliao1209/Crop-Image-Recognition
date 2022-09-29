@@ -1,0 +1,90 @@
+===================================
+Folder:greenonion
+===================================
+Bytes:    871747
+.\dataset\greenonion\26377e26-202c-4a01-872b-08f777875a69.jpg
+.\dataset\greenonion\94c19288-5dcc-4646-ab12-fe961d2bf47e.jpg
+Bytes:    938228
+.\dataset\greenonion\06f548cd-b154-406c-bb6e-d429f25483e8.jpg
+.\dataset\greenonion\5c4cc016-8d1c-4c19-83a3-735265cc7dbf.jpg
+Bytes:   1097055
+.\dataset\greenonion\11cba4cd-23fa-47ed-905b-600cbd53bf79.jpg
+.\dataset\greenonion\c9980f29-3af8-4fb9-9ba0-bd69482fe4e6.jpg
+Bytes:   3593888
+.\dataset\greenonion\57c53c93-679a-4ee2-beb5-1f016201e493.jpg
+.\dataset\greenonion\9c5f1c99-6bc2-4233-8bbc-b1200f16e192.jpg
+Bytes:   4924929
+.\dataset\greenonion\752233d7-b309-4529-9dbf-11fe88e4501b.jpg
+.\dataset\greenonion\ac5c6352-1931-42bf-8d98-52f40123d18a.jpg
+Bytes:   5269167
+.\dataset\greenonion\2a6071e4-340d-4597-9fd7-4cb2b7a5efe9.jpg
+.\dataset\greenonion\982883b8-100b-4307-8323-0f5337301029.jpg
+Bytes:   5373994
+.\dataset\greenonion\5724d72f-1990-4a96-992e-a4a58afd3369.jpg
+.\dataset\greenonion\ffa91f01-40ab-4120-9a5e-a06a6d8c1e2f.jpg
+Bytes:   5737639
+.\dataset\greenonion\12bfd7b4-82da-4cd8-8b27-20e0d05b896e.jpg
+.\dataset\greenonion\8becc1bd-a206-45ff-a9ac-96a4d030ad9c.jpg
+Bytes:   5940386
+.\dataset\greenonion\17de9c02-e3f7-4dd7-b611-64366469959d.jpg
+.\dataset\greenonion\756088d8-d709-4948-a6d7-439b636ac778.jpg
+Bytes:   5961442
+.\dataset\greenonion\b460a7d9-735a-4c58-a828-450e106b9037.jpg
+.\dataset\greenonion\bfd18574-dd72-4d53-b095-d21c28ded172.jpg
+Bytes:   6096744
+.\dataset\greenonion\7bc13594-d0ef-4b7a-b79a-bf9014b3772d.jpg
+.\dataset\greenonion\8c3916df-9a02-43ed-9742-d88d942d4767.jpg
+Bytes:   6348198
+.\dataset\greenonion\20df83cd-fad1-4e0a-9a47-6a138d799683.jpg
+.\dataset\greenonion\7bcfb2c1-50e7-4040-87e5-462a96a8f81e.jpg
+.\dataset\greenonion\bd4e3fb1-1502-4286-a60b-16b54df2fde7.jpg
+Bytes:   6368082
+.\dataset\greenonion\07ce21bd-21bd-46da-8eae-672822c11bd1.jpg
+.\dataset\greenonion\e0b01eb6-307c-4cc8-b994-28696e61c646.jpg
+Bytes:   6518333
+.\dataset\greenonion\8ebc48c2-f112-4386-b06f-74e5ad7c6768.jpg
+.\dataset\greenonion\bcb7e028-055e-430d-bb7d-87a03c35cf20.jpg
+Bytes:   6711141
+.\dataset\greenonion\1fb146db-7d7f-46e3-a4d8-d62e0f57ce47.jpg
+.\dataset\greenonion\b13aa772-87a0-48e9-89e4-e12ad60c03af.jpg
+Bytes:   6739150
+.\dataset\greenonion\1da626a9-9da8-43ad-ac84-29766d47da08.jpg
+.\dataset\greenonion\30b58899-8e60-475e-9769-fd8c4e450ece.jpg
+Bytes:   6867663
+.\dataset\greenonion\27d25495-2258-4338-b49e-6f9db8ea083f.jpg
+.\dataset\greenonion\fe433513-33a9-4498-a9a5-3bbc546fc6ec.jpg
+Bytes:   7121504
+.\dataset\greenonion\bc34c2bf-671a-4018-a48d-8fcf1bfabed7.jpg
+.\dataset\greenonion\f592d91b-8d82-4242-9f5a-997400344ee7.jpg
+Bytes:   7181081
+.\dataset\greenonion\9bd0571d-e15b-4c8c-928c-3c232b988978.jpg
+.\dataset\greenonion\e2162310-f309-4dff-8959-18410b33b1c4.jpg
+Bytes:   7551093
+.\dataset\greenonion\1a5e8ada-f9f6-4cbb-a4ac-a9778ac85e99.jpg
+.\dataset\greenonion\319c6d91-54af-4877-8271-3487a1dcfbc0.jpg
+.\dataset\greenonion\af95231b-caf2-409a-97a3-8d8e3c26ee45.jpg
+Bytes:   7591794
+.\dataset\greenonion\68344d79-5db2-4339-8f4c-dbe4aaeaacd0.jpg
+.\dataset\greenonion\dc43146e-05d0-4d39-8b1d-a18350ca0371.jpg
+Bytes:   7620841
+.\dataset\greenonion\c4b84a92-52e4-401e-a8c9-30f9c9835a2f.jpg
+.\dataset\greenonion\f7cb85aa-318a-4a7c-85f2-9776aab57498.jpg
+Bytes:   7766661
+.\dataset\greenonion\55fa1aa3-3564-4a4b-9e56-e30f3509a5b9.jpg
+.\dataset\greenonion\f04a6306-89cd-4432-9f91-bfec46419b61.jpg
+Bytes:   8142387
+.\dataset\greenonion\9ce92980-6251-46f0-adaf-21c918bebe25.jpg
+.\dataset\greenonion\c89a5545-ed64-49a3-8b82-398462c97c8b.jpg
+Bytes:   8748427
+.\dataset\greenonion\0420cb6f-d535-4a3c-857b-69f47f4e7b41.jpg
+.\dataset\greenonion\922c322c-4764-4efa-92f9-cf9ea5d4ff8d.jpg
+.\dataset\greenonion\bb1d551a-ca9a-4c1f-b78b-7883a3d57ea7.jpg
+.\dataset\greenonion\dcea50f0-b51b-4712-97df-0a84c21bac1c.jpg
+Bytes:   9030292
+.\dataset\greenonion\6d3285a9-1ddb-4f8c-b44f-bbd319b61e06.jpg
+.\dataset\greenonion\6eea20fb-d4e7-4ae2-9e0a-aca17f5a0f07.jpg
+.\dataset\greenonion\93877ee0-7277-463c-b398-2fc2cafafe83.jpg
+.\dataset\greenonion\c5cb7f36-209e-44a2-9e6f-130060b463fb.jpg
+Bytes:   9607007
+.\dataset\greenonion\14d1af27-c4db-4d71-832a-44f3a6b5aaa3.jpg
+.\dataset\greenonion\e7e06a2b-a9e4-4fed-92dd-babe405bf76d.jpg

@@ -1,0 +1,24 @@
+===================================
+Folder:     betel
+===================================
+Bytes:    832496
+.\dataset\betel\0d01259b-d94f-4813-bc32-043f5c2f26d6.jpg
+.\dataset\betel\14ae12a4-a9b5-4988-9b62-a30fbc14d82d.jpg
+Bytes:   2216725
+.\dataset\betel\14259789-04b3-423f-94d4-e51fb961d418.jpg
+.\dataset\betel\e7946eec-b412-4b8c-abfc-f8b2cbc570df.jpg
+Bytes:   2222403
+.\dataset\betel\6af227e8-432b-4728-ae46-b405eb8a4d92.jpg
+.\dataset\betel\9e19b914-21ff-4098-b912-b7145ca46482.jpg
+Bytes:   3248640
+.\dataset\betel\0f6837fb-c5c4-413d-8f5a-22bd7d7d94d2.jpg
+.\dataset\betel\f0884417-34c0-43c0-a286-3a1775fd86d1.jpg
+Bytes:   3265170
+.\dataset\betel\44d96d15-b5e3-4b06-969a-c6c5968210cc.jpg
+.\dataset\betel\46d084ba-31dd-4b53-8419-3104fd69906a.jpg
+Bytes:   3328473
+.\dataset\betel\0c9da54d-529a-4252-bb1c-cb7d86b43e75.jpg
+.\dataset\betel\aa70aa21-dda0-4ff3-864e-c863b92ce3a4.jpg
+Bytes:   3666932
+.\dataset\betel\01d52691-8ea4-4a78-9a7a-94b0bd89b27e.jpg
+.\dataset\betel\04dac2d8-36b4-47e3-bea1-579ea5f95607.jpg

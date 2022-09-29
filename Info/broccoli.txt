@@ -1,0 +1,142 @@
+===================================
+Folder:  broccoli
+===================================
+Bytes:    679026
+.\dataset\broccoli\3b6bfdae-7f62-47b0-89f0-ebbdbf5e03e8.jpg
+.\dataset\broccoli\b556e754-3df5-4098-952d-8e265d9999fd.jpg
+Bytes:    680699
+.\dataset\broccoli\69c38aa4-a4ca-4e01-a224-3b8022a60401.jpg
+.\dataset\broccoli\d76a5f0e-ac99-4bee-954f-cc73d78e41d5.jpg
+Bytes:    717621
+.\dataset\broccoli\aaad5c51-4277-4370-af98-5479ff327131.jpg
+.\dataset\broccoli\f293746c-de52-4143-80f7-03cf81d0fd78.jpg
+Bytes:   1276160
+.\dataset\broccoli\2fb8bcfa-9663-4c94-b091-b76795ecb133.jpg
+.\dataset\broccoli\c1f0594a-eeef-4889-b862-7c98a9c543d3.jpg
+Bytes:   1302462
+.\dataset\broccoli\3186b6db-e445-4ea0-a86d-a5bd006e86bb.jpg
+.\dataset\broccoli\ac524d11-606b-4519-860f-e01a91d99cc7.jpg
+Bytes:   3896790
+.\dataset\broccoli\1e945a4d-829d-46b7-bbe1-5239c2ac59bc.jpg
+.\dataset\broccoli\c5077318-5bd5-4682-9a2c-6d0432115338.jpg
+Bytes:   4651210
+.\dataset\broccoli\c41d6fe5-f13f-4892-bfba-bed1125d925f.jpg
+.\dataset\broccoli\dc857bed-c04c-4ee8-aa58-da3c5f925da3.jpg
+Bytes:   5057479
+.\dataset\broccoli\063b33bc-1a23-44be-88d1-1c0e7cc3fc36.jpg
+.\dataset\broccoli\5764e9fb-ea65-4085-99c9-da0a2f000654.jpg
+Bytes:   5216361
+.\dataset\broccoli\24862d20-5128-4651-b5e1-cff2f6bc87aa.jpg
+.\dataset\broccoli\dd0fc438-86ad-4e12-9673-8b0babcebc9d.jpg
+Bytes:   5470998
+.\dataset\broccoli\6aa3e104-50ee-4668-8eba-af700bdcc043.jpg
+.\dataset\broccoli\a8e9c024-0eb2-4a7e-b32f-13915460b0c7.jpg
+Bytes:   5483789
+.\dataset\broccoli\8624c44a-515d-42f5-b57f-f0fedbc9bd3c.jpg
+.\dataset\broccoli\a31a36b7-ab04-44b6-ba44-4866628fb5b8.jpg
+Bytes:   5508784
+.\dataset\broccoli\34721bec-ad7d-42b0-8364-55b1ce3b7356.jpg
+.\dataset\broccoli\821037a4-fbaa-46c4-8807-c002a31fd4c6.jpg
+.\dataset\broccoli\93e9ce1d-5818-4d4c-b8c0-3b1a307f0a61.jpg
+Bytes:   5548240
+.\dataset\broccoli\353fb19a-1f29-45f9-91b8-e062aedaf24e.jpg
+.\dataset\broccoli\c4c0e688-1beb-4813-908e-31cf62bf4cad.jpg
+Bytes:   5745147
+.\dataset\broccoli\b5fb3ade-4da8-4d4c-8efc-0f3c47380562.jpg
+.\dataset\broccoli\de7c5505-c14a-41c6-94d2-9c0b4b49b68a.jpg
+Bytes:   5967837
+.\dataset\broccoli\69472e6a-c8c0-42f4-9062-0b7a9c03506c.jpg
+.\dataset\broccoli\9dd26526-1d69-4cc9-9b5a-c807e375df58.jpg
+Bytes:   6009667
+.\dataset\broccoli\89ad57cf-1381-460f-8d80-5b0e65849a39.jpg
+.\dataset\broccoli\f2fde088-b4d0-4efd-b60d-2d28eab4ab01.jpg
+Bytes:   6089358
+.\dataset\broccoli\059238a4-9eff-4521-9ddc-a11339179013.jpg
+.\dataset\broccoli\b49ec3ce-2f92-442d-a850-af283d9a8277.jpg
+Bytes:   6202032
+.\dataset\broccoli\21280e9d-34ee-4015-9fc6-4fe01c684fc8.jpg
+.\dataset\broccoli\a4ae2b48-2069-446e-8093-fb7243d31fda.jpg
+Bytes:   6258630
+.\dataset\broccoli\63045df2-e611-4dc1-8036-fb2c84d85cc9.jpg
+.\dataset\broccoli\fa1d8d1a-8959-4178-bc37-29ee158c27da.jpg
+Bytes:   6300717
+.\dataset\broccoli\61c97f30-608c-4093-8cf9-8eab991e4660.jpg
+.\dataset\broccoli\934a8e88-48c9-4abf-ada6-59436ec0809a.jpg
+Bytes:   6317514
+.\dataset\broccoli\50065f8b-d316-4a82-8789-0fb3f8657850.jpg
+.\dataset\broccoli\dae26379-8b21-468d-8b4a-b018c9cf9760.jpg
+Bytes:   6376449
+.\dataset\broccoli\7f005238-c20a-49f5-aa31-9c9592c197a3.jpg
+.\dataset\broccoli\ba3e2ddc-7888-4786-a9e1-2b3dce4279a7.jpg
+Bytes:   6384801
+.\dataset\broccoli\426efb35-83e4-4ec2-a14b-d3530b9b5bca.jpg
+.\dataset\broccoli\bc80bdf0-c066-4dea-86df-235bd6de1889.jpg
+Bytes:   6395619
+.\dataset\broccoli\08c3d129-d3b9-446c-894a-49744f576ae1.jpg
+.\dataset\broccoli\c2f6d54a-621c-4af3-b515-cc93a0a2b213.jpg
+Bytes:   6489184
+.\dataset\broccoli\4517604b-139c-4b78-bbe6-88fda06158db.jpg
+.\dataset\broccoli\68529ba4-7152-46b0-9e49-c260e286f5fa.jpg
+Bytes:   6505301
+.\dataset\broccoli\26cb2f7e-3e86-413a-b9ba-325489f150eb.jpg
+.\dataset\broccoli\28426772-320f-4d6c-bb6e-b953ed9b4b5d.jpg
+Bytes:   6559140
+.\dataset\broccoli\55d576c9-9487-47fa-a05d-d9130249b3b8.jpg
+.\dataset\broccoli\8dec249a-20be-44b4-b877-5f947785a001.jpg
+Bytes:   6630098
+.\dataset\broccoli\561651c4-65a4-4e7d-8a1e-d32f732a4351.jpg
+.\dataset\broccoli\be93bf52-88be-4c1c-9ede-4fb9ca83f36e.jpg
+Bytes:   6649473
+.\dataset\broccoli\0ffbbf9f-e78f-44b8-8aa4-88f8cbf1fa1f.jpg
+.\dataset\broccoli\6b6399a0-7756-4ec8-a5ab-94cef9462c05.jpg
+Bytes:   6745053
+.\dataset\broccoli\69233c71-9f48-4492-96c9-9c8597b494fd.jpg
+.\dataset\broccoli\e8a9e0e5-2fd0-4a1a-94bb-b3f0dbb31f19.jpg
+Bytes:   6807376
+.\dataset\broccoli\13945102-0614-4229-9909-0ca9fc094212.jpg
+.\dataset\broccoli\8cb4386b-d1d1-42d1-bca4-683fa7192ca2.jpg
+Bytes:   6815554
+.\dataset\broccoli\2d37c533-fa16-4e2c-97b8-c5aa0c5c582e.jpg
+.\dataset\broccoli\8002609b-98e1-458c-b87f-a69ce818323c.jpg
+Bytes:   6863587
+.\dataset\broccoli\365fa10c-7813-4e9c-aaf0-5d63e1fae98f.jpg
+.\dataset\broccoli\a414b12d-55c6-428b-a8be-876cefa57262.jpg
+Bytes:   6928699
+.\dataset\broccoli\52eacc18-e5ea-4eee-a9e3-140ac7a511d0.jpg
+.\dataset\broccoli\e4f3425c-442a-407f-97ff-4d19cc167834.jpg
+Bytes:   6985891
+.\dataset\broccoli\17393177-2329-4467-b72e-63bdcd6108a5.jpg
+.\dataset\broccoli\9fadc8e3-010f-4f04-8917-d78020fefad3.jpg
+Bytes:   6997351
+.\dataset\broccoli\77e120e9-7914-46f2-8b36-4a953e68eccb.jpg
+.\dataset\broccoli\9efead59-bdff-41ec-9bfb-4af7409b499d.jpg
+Bytes:   7030652
+.\dataset\broccoli\742659e9-e5da-44a1-b479-2548e8938e05.jpg
+.\dataset\broccoli\b1032bab-1e59-4602-bea2-87dc4a65e331.jpg
+Bytes:   7384368
+.\dataset\broccoli\51d92f2f-8383-4d58-a858-23eda7eaadd4.jpg
+.\dataset\broccoli\bf1cf460-5e8b-4423-9757-aacfbc909dc3.jpg
+Bytes:   7405010
+.\dataset\broccoli\765ca8c7-1a26-45e8-8e13-708b53c781c5.jpg
+.\dataset\broccoli\a133b114-9f92-4d1f-99f5-dcecf00293e1.jpg
+Bytes:   7429760
+.\dataset\broccoli\52e452af-5b2d-47c7-ac37-48da7d911acc.jpg
+.\dataset\broccoli\8d06599c-b588-4021-924b-8a72d1e6f3fe.jpg
+Bytes:   7787361
+.\dataset\broccoli\0f3252de-e5e5-4cde-83fe-1efb77468bcd.jpg
+.\dataset\broccoli\ee3ac825-9613-4265-be90-bc360f65ad83.jpg
+Bytes:   8022075
+.\dataset\broccoli\7f5ba6a5-8c56-4873-a4c1-32d44c4f2a5c.jpg
+.\dataset\broccoli\c8ebfaa5-4892-4183-9b6d-7e25f115da5e.jpg
+Bytes:   8570529
+.\dataset\broccoli\39286a83-57b1-43cf-8193-7c4faa10fe8c.jpg
+.\dataset\broccoli\dfcc70e5-dab6-415b-88fa-52c9ae065b2b.jpg
+Bytes:   9558813
+.\dataset\broccoli\27a376cd-4f0f-4908-85d1-b8aba3734b89.jpg
+.\dataset\broccoli\89412bf0-2e69-40ba-82c4-dfda841a6de0.jpg
+Bytes:   9572989
+.\dataset\broccoli\5b1395fa-32e1-48a5-949a-49171141cfbd.jpg
+.\dataset\broccoli\68a6aceb-2fb8-4937-9d9f-ac98950be922.jpg
+Bytes:  11444648
+.\dataset\broccoli\5534325d-ed89-421e-8d5f-ae0de5ddc150.jpg
+.\dataset\broccoli\9cdd1432-fac9-4215-9e60-8f0bcb976b9d.jpg

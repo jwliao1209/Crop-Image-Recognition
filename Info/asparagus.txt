@@ -1,0 +1,25 @@
+===================================
+Folder: asparagus
+===================================
+Bytes:    622894
+.\dataset\asparagus\9aec49bc-3d8d-4cb5-ad1e-16220448ca87.jpg
+.\dataset\asparagus\a6c6362b-9889-47fd-be71-06bacfde0661.jpg
+Bytes:   1506216
+.\dataset\asparagus\2d4f207a-72c9-44c1-bf3c-3ed3251fb4e0.jpg
+.\dataset\asparagus\941181ce-eb52-46f5-8655-78e576957983.jpg
+.\dataset\asparagus\eb87e5ed-7621-4a62-9102-1f756f663ef5.jpg
+Bytes:   5898158
+.\dataset\asparagus\2965d76c-bcb7-4256-9bd6-6ccc748a503b.jpg
+.\dataset\asparagus\6418e867-6819-422c-ba40-959a95e03c0e.jpg
+Bytes:   6156119
+.\dataset\asparagus\741a6f2b-97f1-42d6-b07d-f2bf11f59f1c.jpg
+.\dataset\asparagus\efcead90-5a0c-474c-8836-aeb43e072d56.jpg
+Bytes:   6162578
+.\dataset\asparagus\18919569-8aea-4ef0-9f8a-0216973d0fb7.jpg
+.\dataset\asparagus\b9bed69e-159d-4ca5-952b-0355668a6c35.jpg
+Bytes:   6260688
+.\dataset\asparagus\7daab3aa-a9f1-4e8c-9803-4be890bd0b9c.jpg
+.\dataset\asparagus\dc6ccc70-7e08-46ac-b713-d7d667b6b82c.jpg
+Bytes:   9166653
+.\dataset\asparagus\0e7e2377-dc4b-43c0-ad49-01731388822e.jpg
+.\dataset\asparagus\5c3fa146-d812-4f86-97a9-0e1783a323d6.jpg

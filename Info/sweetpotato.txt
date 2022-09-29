@@ -1,0 +1,83 @@
+===================================
+Folder:sweetpotato
+===================================
+Bytes:   1165316
+.\dataset\sweetpotato\118f17e3-adf6-40af-861e-9917a611dc2f.jpg
+.\dataset\sweetpotato\4fd25937-7e1e-4a34-aa5a-2acfb557a187.jpg
+Bytes:   2435956
+.\dataset\sweetpotato\d9f3beee-da33-4c3f-a7ae-e8f09b11c8cc.jpg
+.\dataset\sweetpotato\e6869834-dbfa-463b-8998-cea55fc54be8.jpg
+.\dataset\sweetpotato\f72a8fa3-a7be-4299-9319-099247485a81.jpg
+Bytes:   3132685
+.\dataset\sweetpotato\6ed28ae3-b2e5-42e1-82a9-8677fa4f601b.jpg
+.\dataset\sweetpotato\d0668719-1003-4ebf-9af1-5202e2cff1ca.jpg
+Bytes:   5607523
+.\dataset\sweetpotato\c145a4e1-0c0b-420c-baac-a93b4bfe89b5.jpg
+.\dataset\sweetpotato\eb6306ee-137e-4adf-abcb-190b6dffbfe9.jpg
+Bytes:   5925908
+.\dataset\sweetpotato\6109c924-102a-42da-a8dc-d7256fcc43f6.jpg
+.\dataset\sweetpotato\c6e6ee15-a3f2-4eee-9d6e-b3f92258c086.jpg
+Bytes:   6185756
+.\dataset\sweetpotato\8b0c939f-015e-4d58-ac34-58de71f8f741.jpg
+.\dataset\sweetpotato\9fca7aaf-5d49-4348-8f3c-30309debd556.jpg
+Bytes:   6345211
+.\dataset\sweetpotato\1d5bf957-a3d6-4e3f-a569-9f475110a286.jpg
+.\dataset\sweetpotato\65ceca75-ab28-489a-a98f-d4ab14418fb7.jpg
+Bytes:   6445288
+.\dataset\sweetpotato\4d9c1e6c-bd52-4614-9e10-2520dc8f2dae.jpg
+.\dataset\sweetpotato\8fa85006-1739-416f-98cd-d57003c19402.jpg
+Bytes:   6484903
+.\dataset\sweetpotato\1fead8e1-c5f7-4a07-b62c-66b3a154a704.jpg
+.\dataset\sweetpotato\93a84f43-a6f5-45e1-9987-76cb5db3cca8.jpg
+Bytes:   6492712
+.\dataset\sweetpotato\62db8474-1876-4aa7-8475-bcb86903e791.jpg
+.\dataset\sweetpotato\9570f1a4-0a73-465f-b941-26b47307e81c.jpg
+Bytes:   6564587
+.\dataset\sweetpotato\d9319d08-9d09-4521-bb14-006fb721bff8.jpg
+.\dataset\sweetpotato\f4c51dce-3b2e-498a-b75c-14bd41357a02.jpg
+Bytes:   6607418
+.\dataset\sweetpotato\1aadb26b-73dd-406f-8214-652dabf2c8ab.jpg
+.\dataset\sweetpotato\a690625e-4899-482c-96b7-99f44cd083d0.jpg
+.\dataset\sweetpotato\e6fee6cc-486a-4245-a1f5-5df0ac471912.jpg
+Bytes:   6618589
+.\dataset\sweetpotato\40a4184b-b802-42ec-9d4c-d5ed0e311073.jpg
+.\dataset\sweetpotato\4c507a96-f7ea-41b8-8565-5ea709eb1053.jpg
+Bytes:   6639941
+.\dataset\sweetpotato\58298dc1-af43-4095-9a91-80301d9e4721.jpg
+.\dataset\sweetpotato\bb727a34-cd2b-49d4-b69f-b8a56316802b.jpg
+Bytes:   6804414
+.\dataset\sweetpotato\4eef246e-0329-4af5-93c9-84c51c7040fc.jpg
+.\dataset\sweetpotato\5b03a42b-4511-4b52-b81f-4b9356aab1ff.jpg
+Bytes:   6818831
+.\dataset\sweetpotato\151f848c-f8ab-4638-a3c5-1c16b61eb94d.jpg
+.\dataset\sweetpotato\2c01a6ad-b0c4-4ca0-a743-b3ee8a4f1b6b.jpg
+.\dataset\sweetpotato\55374ad8-adc2-4c3b-85e9-55aa0711b2f9.jpg
+Bytes:   7185922
+.\dataset\sweetpotato\4ad4d92f-46fb-4783-bfec-555d3a6b5d25.jpg
+.\dataset\sweetpotato\94652fbd-3ae8-416c-980c-615bd7760a19.jpg
+.\dataset\sweetpotato\d4753892-8579-45ab-9657-00a0141163a6.jpg
+Bytes:   7228552
+.\dataset\sweetpotato\98f30210-d95e-4414-b6b8-09f976309273.jpg
+.\dataset\sweetpotato\9c64f28c-b73e-444f-9781-10300d281eae.jpg
+Bytes:   7397199
+.\dataset\sweetpotato\6270df9d-50e2-4c3d-b243-d8c9b1388ed5.jpg
+.\dataset\sweetpotato\79a45228-0e70-4d14-af23-9cb3e27c990c.jpg
+Bytes:   7401558
+.\dataset\sweetpotato\4c073959-43e1-4e0d-954a-b3b1b95ceed0.jpg
+.\dataset\sweetpotato\e990f263-1273-4c44-b2d4-acd4f376cbfa.jpg
+Bytes:   7826050
+.\dataset\sweetpotato\44c11f51-c555-409e-a34b-1eee666fc935.jpg
+.\dataset\sweetpotato\f43df0ed-47a8-4704-adef-aa080d2d4d59.jpg
+.\dataset\sweetpotato\fa2f9380-2123-4493-a0e7-5173f7601811.jpg
+Bytes:   7992017
+.\dataset\sweetpotato\0e03ee11-6545-4258-915e-277e9932dcb3.jpg
+.\dataset\sweetpotato\4a94c44f-4646-41aa-8107-66b9ea0f29f1.jpg
+Bytes:   8176453
+.\dataset\sweetpotato\4f582cc8-c27d-4740-b1ef-b3ef957d1147.jpg
+.\dataset\sweetpotato\f797f56a-80d2-4187-b6b2-6fb2c242aad7.jpg
+Bytes:   8197006
+.\dataset\sweetpotato\362e6236-5813-4b29-8748-2c0d3f6c7544.jpg
+.\dataset\sweetpotato\58069640-e3ed-4159-8079-9898fa75515e.jpg
+Bytes:   8273340
+.\dataset\sweetpotato\6628153d-4497-421a-943b-ac22c10f9700.jpg
+.\dataset\sweetpotato\ccd29919-ca8d-4bf7-adb9-5ef25c0bce1f.jpg

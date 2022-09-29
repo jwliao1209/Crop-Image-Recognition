@@ -1,0 +1,25 @@
+===================================
+Folder:     mango
+===================================
+Bytes:    318312
+.\dataset\mango\99bb7037-3a27-4407-b8c1-7ffc4e606277.jpg
+.\dataset\mango\eb875d3e-c478-4bbc-a6a8-e39e0e0983f3.jpg
+Bytes:    345727
+.\dataset\mango\7c368fd9-17a1-499c-991b-63afd6e4cac6.jpg
+.\dataset\mango\e586dd55-894c-4e34-8835-c12afde0e4bb.jpg
+Bytes:    921650
+.\dataset\mango\b585a581-77a6-463e-a130-3bb43d6cdeb8.jpg
+.\dataset\mango\ea457481-11ef-47a4-9f86-06fed3431ba7.jpg
+Bytes:   1372994
+.\dataset\mango\475c24d3-0c3f-45e6-afd5-d97ca089fc70.jpg
+.\dataset\mango\98fe3c1a-4fd8-4f1b-95d8-b2d2ad16a457.jpg
+.\dataset\mango\c3b6d6c8-2f7a-4a3b-ad30-4834a9e289a9.jpg
+Bytes:   2557535
+.\dataset\mango\6d70b1bf-aea6-4b32-8130-856eb8a59c86.jpg
+.\dataset\mango\81285545-a8fa-4b8e-9bb5-a7e2324f6fe4.jpg
+Bytes:   3036334
+.\dataset\mango\2c2c768c-e880-4ec8-a6ed-b2df73a874f9.jpg
+.\dataset\mango\8f424780-1e00-4a55-bf95-a2bcc92389c4.jpg
+Bytes:   5448754
+.\dataset\mango\6f91b913-62ae-4b2b-8f94-47c553726115.jpg
+.\dataset\mango\e3520bbe-395e-4b38-85e8-e301fa51ee61.jpg

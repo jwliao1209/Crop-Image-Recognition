@@ -1,0 +1,138 @@
+===================================
+Folder:waterbamboo
+===================================
+Bytes:    831373
+.\dataset\waterbamboo\af6f7dfc-0bcb-43e7-a4cb-5e234c1f881e.jpg
+.\dataset\waterbamboo\e8843e6b-fb60-4e27-91e3-3a4bfc646bf1.jpg
+Bytes:    950049
+.\dataset\waterbamboo\1133d168-2818-4753-b63b-41b0c2eafee3.jpg
+.\dataset\waterbamboo\9f83a970-e534-48ac-a04d-7a57621183e0.jpg
+Bytes:   1092348
+.\dataset\waterbamboo\36c1dd92-2df9-4299-879c-26db51ec7048.jpg
+.\dataset\waterbamboo\5bb074e4-c404-4412-875a-41eead21c6eb.jpg
+Bytes:   1284708
+.\dataset\waterbamboo\9186da45-2baa-4cca-aa09-f0f4dec982b9.jpg
+.\dataset\waterbamboo\ea805a12-aa5d-4a06-88d4-24dd0eaa8b9e.jpg
+Bytes:   1327538
+.\dataset\waterbamboo\7048f0df-f28e-4ef8-aab8-e081ac577c22.jpg
+.\dataset\waterbamboo\e6bc5d17-922d-49df-9a56-6766fb99e506.jpg
+Bytes:   1354237
+.\dataset\waterbamboo\b9e994c1-2920-400c-802d-a13c9b9df131.jpg
+.\dataset\waterbamboo\c69ac2c7-7ba5-45e0-ae3a-ae9d893ed3e0.jpg
+Bytes:   1581024
+.\dataset\waterbamboo\0b151f60-7d8f-4e0e-b866-2ade624c83bf.jpg
+.\dataset\waterbamboo\d968a1cf-e408-4060-bd2e-4b9270ae55a0.jpg
+Bytes:   1691295
+.\dataset\waterbamboo\3ee7a33a-46e0-402f-bde2-358ce72fd7b6.jpg
+.\dataset\waterbamboo\c29172eb-0e77-41be-875c-a75449009fbc.jpg
+Bytes:   1768103
+.\dataset\waterbamboo\b9f64133-dabc-4fd2-8274-7ab092e8ca62.jpg
+.\dataset\waterbamboo\f4c0630c-9da5-4ef2-add8-906a66d5801a.jpg
+Bytes:   1923369
+.\dataset\waterbamboo\4c9efd08-e36c-4413-9706-7cdcfa60f93e.jpg
+.\dataset\waterbamboo\90c21c81-bc18-427a-9d02-e07132217be7.jpg
+Bytes:   1952333
+.\dataset\waterbamboo\9a736984-bf13-4f6c-8b19-885f7c83400d.jpg
+.\dataset\waterbamboo\9aa7dff8-7d30-45b7-a0b5-399f1f728bf7.jpg
+Bytes:   2000812
+.\dataset\waterbamboo\1c95a72a-989e-4844-b76b-027ade495e65.jpg
+.\dataset\waterbamboo\a9e701d7-3139-42fd-bd79-261e37336e3c.jpg
+Bytes:   2059350
+.\dataset\waterbamboo\420837a8-dd93-4528-a440-889502a2ac2d.jpg
+.\dataset\waterbamboo\4e11278b-dd06-4852-806c-5f6f75a88284.jpg
+.\dataset\waterbamboo\c270f436-d26a-4f0c-83ca-34dcf2969cc3.jpg
+.\dataset\waterbamboo\d7dda364-d0a9-4b3d-9c6a-ecc1679545f4.jpg
+.\dataset\waterbamboo\e4dd563b-c99c-42e8-98cc-5422d55217ee.jpg
+.\dataset\waterbamboo\ec29d599-b9cd-46aa-804f-c93eaf2418da.jpg
+Bytes:   2071923
+.\dataset\waterbamboo\074ab040-251d-4a0f-9a85-522f628157dd.jpg
+.\dataset\waterbamboo\895c2656-0c8f-4777-b546-6cd71adf64d6.jpg
+Bytes:   2208812
+.\dataset\waterbamboo\67c62683-b85a-4349-a390-5aacb1d797d0.jpg
+.\dataset\waterbamboo\f3ce936f-ab65-4024-a052-d97490ec3312.jpg
+Bytes:   2214925
+.\dataset\waterbamboo\51cbe53e-6070-47c5-bbce-b16b288ccf31.jpg
+.\dataset\waterbamboo\f2b06044-e95e-47f2-9c45-ab6a00a00a85.jpg
+Bytes:   2233080
+.\dataset\waterbamboo\a3f0336b-7dad-44b5-9b09-89cf09e2fc5b.jpg
+.\dataset\waterbamboo\a76deaa4-a2f4-475f-9904-495762a2e9cc.jpg
+Bytes:   2311090
+.\dataset\waterbamboo\114e73bb-bedc-4652-9088-7c50a2f45ad4.jpg
+.\dataset\waterbamboo\68400018-a5a4-4fa0-930b-2b3dfb36a30c.jpg
+Bytes:   2420776
+.\dataset\waterbamboo\51c50eda-f617-4c66-a251-5e1d8bb7da69.jpg
+.\dataset\waterbamboo\c202384b-5dcf-47d0-9d4b-9506b84ba371.jpg
+Bytes:   2502456
+.\dataset\waterbamboo\2a604184-a116-476b-a742-f6db9437afb0.jpg
+.\dataset\waterbamboo\e768bd85-6e30-4d9f-8ee5-0cf262e658ae.jpg
+Bytes:   2578715
+.\dataset\waterbamboo\353974b7-9bee-4674-ba9e-33afc81ea583.jpg
+.\dataset\waterbamboo\ec477b75-9b08-4ee0-b43f-6bf7f3522f24.jpg
+Bytes:   2708984
+.\dataset\waterbamboo\8dd33a17-a4dc-40b3-8a37-b10e99025107.jpg
+.\dataset\waterbamboo\dbbf9e69-429a-4aad-9f92-b0f7377ff7e1.jpg
+Bytes:   2742561
+.\dataset\waterbamboo\5fe2983e-dc95-4d11-aac5-ace3e1c98bca.jpg
+.\dataset\waterbamboo\a001c442-0b38-48fa-9ba3-0a6daa12bcc7.jpg
+Bytes:   2794936
+.\dataset\waterbamboo\6b093aee-d56b-4431-82ce-835ed7b92384.jpg
+.\dataset\waterbamboo\8adeb999-12fe-4cdd-8303-fb67d1062625.jpg
+Bytes:   2849666
+.\dataset\waterbamboo\3607a137-b513-4e77-ac36-bc0dc5ee4c9c.jpg
+.\dataset\waterbamboo\375dc059-9450-4f61-be13-513a66603f22.jpg
+Bytes:   3086269
+.\dataset\waterbamboo\0d72fa7e-b1ed-4772-8b15-b10ca8260848.jpg
+.\dataset\waterbamboo\71b7169a-0dda-44da-8d02-71b2e0f3ad23.jpg
+Bytes:   3329982
+.\dataset\waterbamboo\aa50ae92-a9f6-452e-bcc6-9db30e2b94e1.jpg
+.\dataset\waterbamboo\ab2a9e58-2cb3-4a93-bf47-2408be07c7fa.jpg
+Bytes:   3379463
+.\dataset\waterbamboo\8c1bb4cc-1a13-49f1-a4a9-c89392673561.jpg
+.\dataset\waterbamboo\fb032240-ac07-4691-bd30-4b9081a48139.jpg
+Bytes:   3407619
+.\dataset\waterbamboo\005db037-c2a1-4c71-9817-cf624884dbaf.jpg
+.\dataset\waterbamboo\037ace7d-6255-4dc7-919c-d0bbbb18d9e3.jpg
+.\dataset\waterbamboo\875b1417-16e7-4b04-9c00-b3ee71ef05a6.jpg
+Bytes:   3408302
+.\dataset\waterbamboo\132fdb56-8847-472f-ab1e-07e5cd7582be.jpg
+.\dataset\waterbamboo\a1fdd66e-dc05-4381-80e7-0c9147f3d832.jpg
+.\dataset\waterbamboo\e99af8fb-20e6-4e4e-88e6-6040d891e268.jpg
+Bytes:   3522028
+.\dataset\waterbamboo\5cf31696-b5b9-4e76-ac5d-8addcedd7169.jpg
+.\dataset\waterbamboo\a526bd81-7651-4b66-9c0c-bbfd14337c56.jpg
+Bytes:   3628503
+.\dataset\waterbamboo\500f004e-3f88-4e6a-a498-db01702eabd6.jpg
+.\dataset\waterbamboo\ca05c733-c93b-4e42-a509-c8aacc408c97.jpg
+Bytes:   3649472
+.\dataset\waterbamboo\3d68fa94-b6fe-4588-ac88-8171f1087ce2.jpg
+.\dataset\waterbamboo\7eddcd93-7a02-4196-97cd-1cffd660f4ff.jpg
+Bytes:   3654608
+.\dataset\waterbamboo\2fe35e94-a3c3-49c6-a2f5-64b8e0ba7448.jpg
+.\dataset\waterbamboo\8313bfc9-f518-49c4-bc15-650bcc510dc2.jpg
+Bytes:   3683828
+.\dataset\waterbamboo\16fa5718-07fe-4f45-b6d9-765d035d759f.jpg
+.\dataset\waterbamboo\be2fc4af-f596-48a5-bbd8-ef37153e00d8.jpg
+Bytes:   3707775
+.\dataset\waterbamboo\3c707d98-9571-485c-9230-e49df9c755e4.jpg
+.\dataset\waterbamboo\86405503-a4ea-418f-bed8-81aa6f5204b7.jpg
+Bytes:   3755463
+.\dataset\waterbamboo\8ff6876c-74df-4e51-af68-96217b0404e7.jpg
+.\dataset\waterbamboo\fdb990f4-474a-4153-be6d-bf9b3448a6f1.jpg
+Bytes:   3784410
+.\dataset\waterbamboo\533e5c74-08d2-4eca-848f-f8c5debfb570.jpg
+.\dataset\waterbamboo\e1f891be-be30-4a33-b131-11e01391cc02.jpg
+Bytes:   3848657
+.\dataset\waterbamboo\06dd32da-4de3-4e7d-8601-f04a108f6665.jpg
+.\dataset\waterbamboo\79159ad5-8b8d-4ada-946d-deea69af483c.jpg
+Bytes:   3950720
+.\dataset\waterbamboo\b4d0f3ef-641b-4e9a-8300-7b3cc3077fe8.jpg
+.\dataset\waterbamboo\cc7b0909-e7a2-4dab-950a-fc2459f52802.jpg
+Bytes:   4053067
+.\dataset\waterbamboo\d8536524-4c8e-49ee-9d9e-7d9c8fefb30a.jpg
+.\dataset\waterbamboo\f7d56ca0-8a60-4905-944c-2246b2aebedf.jpg
+Bytes:   4316948
+.\dataset\waterbamboo\4ed5aff7-7acc-49fe-ba18-1ee16d4b5ec2.jpg
+.\dataset\waterbamboo\6dcb1074-ff32-43bb-849e-fbeec527bf67.jpg
+Bytes:   4859375
+.\dataset\waterbamboo\08005782-e677-4f3c-9e81-d8e5a20d9528.jpg
+.\dataset\waterbamboo\13789cc9-7166-4c8b-8144-0f412a5786ad.jpg

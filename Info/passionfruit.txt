@@ -1,0 +1,34 @@
+===================================
+Folder:passionfruit
+===================================
+Bytes:    619386
+.\dataset\passionfruit\253f540c-fefb-4454-a6ba-69c863ae1941.jpg
+.\dataset\passionfruit\5fcabcd0-bb5f-42a0-9a42-1488db12b63b.jpg
+Bytes:   1350095
+.\dataset\passionfruit\74f8eff2-7d11-49cc-bb0d-c1da4815abf7.jpg
+.\dataset\passionfruit\bcd53a58-84a9-48e7-8297-e22ddef2413a.jpg
+Bytes:   1418449
+.\dataset\passionfruit\0b99d51b-f739-49c0-962b-d518af489f4a.jpg
+.\dataset\passionfruit\986398d3-7335-4b2f-9b87-78b1e63fc41e.jpg
+Bytes:   1599971
+.\dataset\passionfruit\4e8ce9f3-7962-4b8b-aa0c-dfede95b1c6a.jpg
+.\dataset\passionfruit\870df145-f182-48a0-bf61-354fe74ea98b.jpg
+Bytes:   1674458
+.\dataset\passionfruit\30372c32-71a9-4431-867a-1c7e75bd013d.jpg
+.\dataset\passionfruit\c608248c-13b6-47e5-b6fd-45f2e8a84585.jpg
+Bytes:   2101678
+.\dataset\passionfruit\24f43dd3-c0e5-4f0a-b4b3-96eaa6d62eaa.jpg
+.\dataset\passionfruit\a6b17af2-f2b6-434e-ad49-ea0375ed2ed6.jpg
+Bytes:   2323935
+.\dataset\passionfruit\0c2ee584-6497-48b7-8d3d-73359409f03c.jpg
+.\dataset\passionfruit\dcd75229-9f2a-40a7-8b83-d2203a83bcf8.jpg
+Bytes:   2563359
+.\dataset\passionfruit\57386963-d56c-45d4-9462-5c26c352e708.jpg
+.\dataset\passionfruit\f05148d5-6182-4c26-b7e5-2ab0e6b16ef7.jpg
+Bytes:   2944406
+.\dataset\passionfruit\9d7ed8b4-c7c2-4bcb-9d79-9516995afbbf.jpg
+.\dataset\passionfruit\c885d919-ebaf-4978-bb5b-538d44329eb3.jpg
+.\dataset\passionfruit\ca8dfca4-1998-4b25-997a-e80cb723136e.jpg
+Bytes:   3833832
+.\dataset\passionfruit\19501546-3025-41e9-9fc6-914280e0e80b.jpg
+.\dataset\passionfruit\a2f66915-27dc-4920-baaf-b3b02cbf1acb.jpg

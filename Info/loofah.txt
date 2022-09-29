@@ -1,0 +1,37 @@
+===================================
+Folder:    loofah
+===================================
+Bytes:    221455
+.\dataset\loofah\019836e9-9101-46d7-b7ca-18132ac0b971.jpg
+.\dataset\loofah\f2b72c42-c455-4ba5-9a86-b7430e569cba.jpg
+Bytes:    620999
+.\dataset\loofah\61e59c94-5e77-4fb0-9cf7-7f89513d894f.jpg
+.\dataset\loofah\6fd6d475-32ee-47cc-96cd-72d65f47a362.jpg
+Bytes:    758135
+.\dataset\loofah\5e959ce4-2a33-4b7a-9065-a6e01dee3f7d.jpg
+.\dataset\loofah\6cf76d39-df27-47c8-b228-d782ff4af141.jpg
+.\dataset\loofah\dcada9be-5276-4c36-a5ad-c4e40e12d316.jpg
+.\dataset\loofah\ed0bbd12-3512-43df-be89-25992a52a35b.jpg
+Bytes:   1271319
+.\dataset\loofah\3d1c8464-a483-4a5b-a094-8344dfd2b02b.jpg
+.\dataset\loofah\fd17a525-6f7b-47d8-8edb-7cb86a9fd513.jpg
+Bytes:   1616665
+.\dataset\loofah\433ea05a-1d80-4c47-a03d-5e8d42e5bbf4.jpg
+.\dataset\loofah\8b60fe7f-e7b0-40de-a559-c2683c25c73f.jpg
+Bytes:   2151495
+.\dataset\loofah\549ca9d7-0b55-4bb5-a317-8662f0c20f44.jpg
+.\dataset\loofah\69f9dba9-5a28-4d59-a53b-19a0decfdd5e.jpg
+Bytes:   2210230
+.\dataset\loofah\6121e151-ee3f-4440-b385-7009461089fc.jpg
+.\dataset\loofah\8182d4b1-1950-44fa-ac1a-79ebc504ed36.jpg
+.\dataset\loofah\f85b0c8d-1b32-49d7-af09-0ede7596a593.jpg
+Bytes:   2586778
+.\dataset\loofah\6fa657b5-e868-42f0-8b78-49f63e5b1b23.jpg
+.\dataset\loofah\88ec5783-4a17-4226-a197-7ecbc1c7a78a.jpg
+.\dataset\loofah\c0c84d0e-631e-4cc2-bca9-931cb83edf9d.jpg
+Bytes:   2592248
+.\dataset\loofah\49fefd35-c29d-4ab5-a619-8d6c980a712e.jpg
+.\dataset\loofah\6d50d5b6-1c42-49e8-885d-f64a3ef04fe8.jpg
+Bytes:   2944013
+.\dataset\loofah\ac6dfaed-68c9-4218-8458-bc358ac83967.jpg
+.\dataset\loofah\e8953f39-e91b-4d66-a742-4fc8239a8de0.jpg

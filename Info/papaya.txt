@@ -1,0 +1,62 @@
+===================================
+Folder:    papaya
+===================================
+Bytes:    305501
+.\dataset\papaya\561638ce-89d6-4596-b2e7-51b851b71f1d.jpg
+.\dataset\papaya\f018b814-061e-40f1-86b4-d60a4ef1e4c6.jpg
+Bytes:    566087
+.\dataset\papaya\2ec440e8-ad9b-4fef-bff7-c34dc5391f0a.jpg
+.\dataset\papaya\6fcbb1f3-4948-4693-979f-6b9ac8a0e809.jpg
+Bytes:    964453
+.\dataset\papaya\4fe18bd7-2791-48b6-9f6d-493201083f9b.jpg
+.\dataset\papaya\f29e451c-6ab8-4156-9f29-d3ec62abd191.jpg
+Bytes:   1027042
+.\dataset\papaya\f2e8c844-1061-431e-96b0-dfb2c0f1685e.jpg
+.\dataset\papaya\f6df5949-306e-411f-98f3-46141c5cf30c.jpg
+Bytes:   1195491
+.\dataset\papaya\1fbaeace-d9a8-46b5-ae22-220f16a435cb.jpg
+.\dataset\papaya\65cca8bf-2d18-4b4a-821b-0eefbd6049cf.jpg
+Bytes:   1617294
+.\dataset\papaya\a1ae2e35-c524-4774-bcd7-6f49dd953d4d.jpg
+.\dataset\papaya\c6cd3355-1ea7-4ca9-8a29-360e44f78e08.jpg
+Bytes:   1652805
+.\dataset\papaya\221fdc08-95f4-4808-bfc0-a5c118a8dddd.jpg
+.\dataset\papaya\f137e31a-d4c5-4894-9fc0-a16126e7a0d2.jpg
+Bytes:   1816320
+.\dataset\papaya\5a11c971-28e7-4c33-8de9-027d2d4c6f99.jpg
+.\dataset\papaya\f120bf2c-dd67-44b5-a772-768512cbdf4a.jpg
+Bytes:   2065128
+.\dataset\papaya\8f1d97e0-a702-4d68-ac52-b9fbb6958c21.jpg
+.\dataset\papaya\c72dfc2e-6532-486a-a258-221d641fe2a2.jpg
+Bytes:   2110221
+.\dataset\papaya\0a5c578e-f079-4337-af5e-a703bad917c9.jpg
+.\dataset\papaya\8a03eb1f-1109-43cb-8a51-89bb098cee1c.jpg
+.\dataset\papaya\9073a1db-3392-4b90-8344-c5f287c0ee0f.jpg
+Bytes:   2146282
+.\dataset\papaya\0419e91e-d5fb-4be4-9c1d-4c219a83eb77.jpg
+.\dataset\papaya\7d69dea4-ad43-4e8d-b28d-e072c493019d.jpg
+Bytes:   2348543
+.\dataset\papaya\1ea8ace6-cda7-4665-ac73-0bdb7298e33f.jpg
+.\dataset\papaya\a3885e22-b18d-4516-962e-aecbc36dabca.jpg
+Bytes:   2632478
+.\dataset\papaya\483f076e-bdc3-462f-8e83-d89feadcf219.jpg
+.\dataset\papaya\fd5d5259-16a0-415f-ab7c-f7e3dbd5ce95.jpg
+Bytes:   2730583
+.\dataset\papaya\0ec0088a-e2a1-4fcd-9385-fd2349b1fc40.jpg
+.\dataset\papaya\3ee8f7b7-47df-48a7-9dc9-5eedf3222171.jpg
+Bytes:   3152924
+.\dataset\papaya\192fc81a-bfdb-4106-8d81-d367d7991708.jpg
+.\dataset\papaya\cbb06be1-6cb8-46b4-86e2-6f6b9d54b14d.jpg
+.\dataset\papaya\e6786e2b-1ef5-41e9-8934-044a0ae0d0ce.jpg
+Bytes:   3380372
+.\dataset\papaya\a29755c6-e44f-448c-b084-0fa5daafc7a3.jpg
+.\dataset\papaya\fca7fa24-a8ff-4131-9d0f-fb8feb4d159b.jpg
+Bytes:   4030528
+.\dataset\papaya\c43ed0c8-ee05-438c-b814-18d823fcaf60.jpg
+.\dataset\papaya\c91422d8-937f-4bac-b75d-d4a2ce3d31e3.jpg
+Bytes:   5928083
+.\dataset\papaya\454342fb-cc9f-451c-a7aa-c3d14d96d106.jpg
+.\dataset\papaya\b37173be-6684-4d5b-b74f-7803525fefae.jpg
+Bytes:   9242869
+.\dataset\papaya\3dbcf1a4-8d88-47a4-ae5a-82e919f02368.jpg
+.\dataset\papaya\5a20fe39-5b7c-475c-8eab-3011619c2c9c.jpg

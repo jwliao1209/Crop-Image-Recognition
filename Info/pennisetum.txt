@@ -1,0 +1,30 @@
+===================================
+Folder:pennisetum
+===================================
+Bytes:   2453820
+.\dataset\pennisetum\91cac18e-ac0d-4500-b9e5-cdee4d5a5073.jpg
+.\dataset\pennisetum\99bbb285-53da-414c-8857-c9458bb7bcce.jpg
+.\dataset\pennisetum\e4ae3271-a945-4989-ab37-4c4866116223.jpg
+.\dataset\pennisetum\f783fe72-6003-481e-8b95-a19c4a6d9f45.jpg
+Bytes:   5453530
+.\dataset\pennisetum\4d12e240-d5a8-4b5d-aedb-fb2936c6d12e.jpg
+.\dataset\pennisetum\dbbf2f7e-1640-4aec-89b9-28830189b25a.jpg
+Bytes:   6402167
+.\dataset\pennisetum\7cf06678-2c4b-4094-aa81-1b3521e3dba3.jpg
+.\dataset\pennisetum\93906cef-e325-42b2-99ef-894e367a68a9.jpg
+Bytes:   6626296
+.\dataset\pennisetum\11aa28de-14fa-44f6-8b66-2fef61dc220a.jpg
+.\dataset\pennisetum\26886e57-d09f-4df9-afaf-fe8eddb798f4.jpg
+Bytes:   6978564
+.\dataset\pennisetum\30e22e9d-31d0-47c9-b1d9-073c7688a0f2.jpg
+.\dataset\pennisetum\398834b6-0cc4-49ca-9c1a-a03148f10532.jpg
+Bytes:   8491652
+.\dataset\pennisetum\0d765eee-3a1c-40a3-8ea2-00ea780d992c.jpg
+.\dataset\pennisetum\7f960304-0810-423e-a3c3-e176610d0a11.jpg
+Bytes:   8500172
+.\dataset\pennisetum\46ea2626-8380-4dd0-b17e-ffd9610e257e.jpg
+.\dataset\pennisetum\631c3420-6aed-4589-891f-c7d8457aa00c.jpg
+.\dataset\pennisetum\73f3caef-62ce-4a37-8c2d-9c2c2407b591.jpg
+Bytes:   9360311
+.\dataset\pennisetum\9b331363-8a96-46c3-af79-be9969108e56.jpg
+.\dataset\pennisetum\b53a4ef5-440f-4e0c-a721-3d923456ac3e.jpg

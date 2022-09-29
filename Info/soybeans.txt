@@ -1,0 +1,21 @@
+===================================
+Folder:  soybeans
+===================================
+Bytes:    546777
+.\dataset\soybeans\79a2c771-b0d7-4744-acb5-8b0f5c34f97b.jpg
+.\dataset\soybeans\b39f6ddd-bccf-4f3c-9458-b5a2077f51e7.jpg
+Bytes:    869078
+.\dataset\soybeans\3616ce32-9471-4f23-8846-d04a2f289af9.jpg
+.\dataset\soybeans\6d2c9766-14dc-4705-85fa-8af7e67e8659.jpg
+Bytes:   1056679
+.\dataset\soybeans\99ae495b-7296-4942-b4a9-0a5b7e5c1ef6.jpg
+.\dataset\soybeans\ce00c70e-dadb-4d46-83d5-4a320e4c6bd5.jpg
+Bytes:   1174284
+.\dataset\soybeans\35fdca0a-ac29-43ef-a741-b7c66650826b.jpg
+.\dataset\soybeans\f83ec6d3-9270-46a2-93a7-7530fb3db32a.jpg
+Bytes:   1470872
+.\dataset\soybeans\1e7058ec-174d-448a-a735-a63ca4f00c21.jpg
+.\dataset\soybeans\a2a1c489-1c37-47bd-abbb-23087e7e1bcc.jpg
+Bytes:   1566405
+.\dataset\soybeans\4e40e87b-b53a-4cad-9642-abeb0108fb8c.jpg
+.\dataset\soybeans\fc8692d0-a2fe-434a-a69f-e57f10b2482a.jpg

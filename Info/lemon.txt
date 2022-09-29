@@ -1,0 +1,61 @@
+===================================
+Folder:     lemon
+===================================
+Bytes:    331183
+.\dataset\lemon\9b4fa9b6-154d-41f3-a025-d3305fac2911.jpg
+.\dataset\lemon\b151a9b3-f13e-40ed-a8fb-3d0dbc7e9dde.jpg
+Bytes:   1003609
+.\dataset\lemon\30e5edcc-9d8a-4694-a617-6604e029ae28.jpg
+.\dataset\lemon\46c6f362-291c-4fa3-a89f-840ea0fe0c7e.jpg
+Bytes:   1019655
+.\dataset\lemon\5f70d2a1-413e-4bad-ada5-e36da76268c3.jpg
+.\dataset\lemon\7d1534fd-ca41-49d8-bb2c-51b981c9a137.jpg
+Bytes:   2164154
+.\dataset\lemon\42d2b164-4210-48e1-ab37-79668dd08fc4.jpg
+.\dataset\lemon\89ebc52a-713e-4190-8317-7fb834f062c7.jpg
+Bytes:   2208766
+.\dataset\lemon\63447f07-5156-4493-8c55-b75c38352584.jpg
+.\dataset\lemon\bc7d9057-e607-4a25-b913-3161ac7a3ceb.jpg
+Bytes:   2445702
+.\dataset\lemon\06d6ffd4-1d01-4da0-86c9-c3896a222a89.jpg
+.\dataset\lemon\e5bbc8eb-4c13-41b1-b94f-f7b58be23d5a.jpg
+Bytes:   2494971
+.\dataset\lemon\26faa59c-3791-427c-a462-97a74d6df176.jpg
+.\dataset\lemon\8a664ae5-d83d-4e1a-9e96-5ebc0ea0c74b.jpg
+Bytes:   2544806
+.\dataset\lemon\23e83ff8-f4a3-4517-b572-9ab275caba0b.jpg
+.\dataset\lemon\2472e9c1-5974-4aa4-9153-593b38611f1d.jpg
+.\dataset\lemon\8a7759f4-6d62-413b-a9c8-2332292dccc2.jpg
+Bytes:   2749662
+.\dataset\lemon\1c0aa33e-07d6-46d8-b164-883d53c0209b.jpg
+.\dataset\lemon\3cef101a-2149-4289-bb96-93bcc8bfe8fb.jpg
+Bytes:   2824957
+.\dataset\lemon\5259bcc7-6006-4cf4-bc20-13e53bbd4203.jpg
+.\dataset\lemon\7b5cdd9f-02d5-4ba1-8477-23773b79dc4c.jpg
+Bytes:   2893419
+.\dataset\lemon\32f3c0d0-906a-4e0f-a386-1a3bc925522b.jpg
+.\dataset\lemon\f3e1400d-f7c8-45a1-8cd1-e2487c3df8d8.jpg
+Bytes:   3039372
+.\dataset\lemon\76390dbc-efb0-49de-aed3-a508bb3d2136.jpg
+.\dataset\lemon\9302db67-8451-4b46-b256-d4866590dadb.jpg
+Bytes:   3829950
+.\dataset\lemon\5569b4d9-c154-418d-968c-fa399c4d3411.jpg
+.\dataset\lemon\5f91a968-c0ff-4088-aecb-1c079e969901.jpg
+Bytes:   4521446
+.\dataset\lemon\96b955bf-f507-4cee-90ec-47e5190e6a4c.jpg
+.\dataset\lemon\dfbe7df5-c1f1-4e66-b33c-48bbb27a64e5.jpg
+Bytes:   4543856
+.\dataset\lemon\3816ef71-20ef-44b4-a34b-231a7b01e0c8.jpg
+.\dataset\lemon\4411eda3-0927-49b1-8401-4dc885ed23db.jpg
+Bytes:   4947437
+.\dataset\lemon\70cd0d9a-38cb-49e2-b937-cfd7f2cbc8c2.jpg
+.\dataset\lemon\8a96bcd5-7b9c-4f2e-b8ea-edce4af84f9b.jpg
+Bytes:   5141934
+.\dataset\lemon\4dabd1a8-297e-4677-82be-b0f52fc9cb20.jpg
+.\dataset\lemon\d73f84a8-4e0b-4fb2-831a-ad7d79328b3f.jpg
+Bytes:   5325841
+.\dataset\lemon\0abb3758-bb09-4af5-973d-a9464a1c3cc6.jpg
+.\dataset\lemon\97518c66-f9ea-4c3a-9ed4-d70827cabc23.jpg
+Bytes:   7482320
+.\dataset\lemon\7f65c08c-d873-44a2-9bb4-2e30792b5c6e.jpg
+.\dataset\lemon\a0faf036-ee4e-4857-a80f-ac9d629b907d.jpg

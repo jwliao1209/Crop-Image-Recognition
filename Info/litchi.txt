@@ -1,0 +1,27 @@
+===================================
+Folder:    litchi
+===================================
+Bytes:    663802
+.\dataset\litchi\7c9243f2-3b2f-46fa-9530-215941750905.jpg
+.\dataset\litchi\fd5af030-b08d-4718-adc3-b2c359180fcb.jpg
+Bytes:    761956
+.\dataset\litchi\0af0c244-5045-4d99-be9b-a1c7d6f656a5.jpg
+.\dataset\litchi\0bd6ae1c-a98e-42a0-9392-cdcea015e0ed.jpg
+Bytes:    863319
+.\dataset\litchi\2a8c90e9-2fb0-4a7c-869f-878d9bebcf24.jpg
+.\dataset\litchi\a47f490d-c9d6-4690-8cf1-32dcfa273301.jpg
+Bytes:   1797700
+.\dataset\litchi\9b6c0eb4-087a-4f47-a642-d7f974f29021.jpg
+.\dataset\litchi\b5d9a1bd-5f76-401a-bbb5-b58d2928b9dd.jpg
+Bytes:   2153064
+.\dataset\litchi\1599d727-d665-43ad-a10e-216b560f5f01.jpg
+.\dataset\litchi\5f243699-7b65-44ff-88a8-969be27ffc0a.jpg
+Bytes:   2624727
+.\dataset\litchi\6d8c3fc4-f77d-464d-aa54-a5dfc63663e1.jpg
+.\dataset\litchi\9cb685f3-515a-4505-8361-5f95bd81deca.jpg
+Bytes:   2899343
+.\dataset\litchi\11a8c3ee-b153-478e-a9c3-9d867203037b.jpg
+.\dataset\litchi\4fdbd2ef-d08f-4a19-bc3d-d87ad4b9afbe.jpg
+Bytes:   3378892
+.\dataset\litchi\ca51fabf-c924-47b2-bad7-ff1dd2eae9e0.jpg
+.\dataset\litchi\d35c1d70-3f4e-409a-b53d-5c936215669a.jpg

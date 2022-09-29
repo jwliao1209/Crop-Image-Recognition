@@ -1,0 +1,137 @@
+===================================
+Folder:      pear
+===================================
+Bytes:   1126187
+.\dataset\pear\a5cfdfef-76cb-4082-b6cd-6820f8ca9ac7.jpg
+.\dataset\pear\b26e54ab-f15e-4019-a2b0-84d801c101d5.jpg
+Bytes:   1591995
+.\dataset\pear\38eee3bc-2cbb-4e97-bd80-61fabb5f14eb.jpg
+.\dataset\pear\42613c72-78f0-4784-ad2e-d219db1c9194.jpg
+Bytes:   1681268
+.\dataset\pear\4bb277b7-0a36-4378-8da5-6a0718d0c652.jpg
+.\dataset\pear\56845bf1-62bb-429b-a8cd-97312ee4a86c.jpg
+Bytes:   1703505
+.\dataset\pear\6f33c585-a38a-434a-b743-c19aca39ffb5.jpg
+.\dataset\pear\a4a7b9d1-836e-4cdc-a9ed-5492003362b4.jpg
+Bytes:   1716465
+.\dataset\pear\df2ab61f-2e8f-4c52-a12a-34f3fcdc55be.jpg
+.\dataset\pear\eede08ba-42d1-4631-aa71-8f269e7d6d5f.jpg
+Bytes:   1772370
+.\dataset\pear\21c05edd-5c35-44a5-924d-09bc6bfed9c4.jpg
+.\dataset\pear\862d8ba2-09a4-40de-9d48-61705a87659a.jpg
+Bytes:   1782414
+.\dataset\pear\3d5e18c8-be47-4f26-8911-d846dcfda3b8.jpg
+.\dataset\pear\c131ec86-272a-42e9-b715-332af367ee93.jpg
+Bytes:   1788000
+.\dataset\pear\412c7944-ee0b-458b-8fbf-4635cb818013.jpg
+.\dataset\pear\e34a28c6-926d-44fc-a2ee-c0cfaa744457.jpg
+Bytes:   1796707
+.\dataset\pear\cfa1151e-e62f-4a3d-b319-df5a8943b221.jpg
+.\dataset\pear\f970762f-0062-47a8-b1f9-1b10cc790836.jpg
+Bytes:   1834716
+.\dataset\pear\1ed52fc0-2983-4b52-bce2-1176be1223e7.jpg
+.\dataset\pear\8225e6b3-4f51-471a-a388-bb6167effea5.jpg
+Bytes:   1834960
+.\dataset\pear\9e823c08-9b10-4cb7-a103-faab630efa4e.jpg
+.\dataset\pear\a86eea7b-3677-44a3-8153-1a4bb0ab26fa.jpg
+Bytes:   1876884
+.\dataset\pear\2bb10655-c1d2-4534-a2f0-0099dd4955b7.jpg
+.\dataset\pear\2f442758-a41c-4714-9d47-653feef2ede3.jpg
+.\dataset\pear\8b88172f-fb31-4210-a823-5e4c3cf42c0d.jpg
+Bytes:   1877012
+.\dataset\pear\03ebd056-c56e-4b64-8c39-a08f6be66700.jpg
+.\dataset\pear\778d101d-764f-41cd-9e33-8db0fc07ac00.jpg
+Bytes:   1918378
+.\dataset\pear\0fd03302-710e-4572-a02e-2f6cedace0aa.jpg
+.\dataset\pear\74385714-3851-4316-a850-440deb0ec278.jpg
+.\dataset\pear\c253b1a1-1540-4c13-98f4-cd0ca51ebe39.jpg
+Bytes:   1927121
+.\dataset\pear\2b9a103f-e19f-44e7-ba6e-9d508f40de09.jpg
+.\dataset\pear\8c570e55-b400-4d36-9f20-fc5d4a492f99.jpg
+Bytes:   1948687
+.\dataset\pear\c61e93f4-5be7-40f0-803a-5d0ecec0c543.jpg
+.\dataset\pear\de2e5b9e-b3d9-4538-863e-339ad949bf3e.jpg
+Bytes:   1956474
+.\dataset\pear\263c343e-d575-45c2-90ce-739988f5280b.jpg
+.\dataset\pear\b2c9dd48-6827-4ee6-8503-f98c7d6ec89e.jpg
+Bytes:   2007407
+.\dataset\pear\911d7a4a-4798-4717-b8ba-d5ff42781146.jpg
+.\dataset\pear\f43c0e12-9dc8-45ce-a776-4a450321eef1.jpg
+Bytes:   2008266
+.\dataset\pear\66fa7db4-6e76-4e31-9632-779b5f0220b1.jpg
+.\dataset\pear\d77e16c7-cca3-4df5-b901-f9b03e116651.jpg
+Bytes:   2036229
+.\dataset\pear\35ddc50d-0ea4-48a8-b9b9-de9cf5a9b798.jpg
+.\dataset\pear\4e2ec316-a7d1-47ab-a889-bbbbdb835e2f.jpg
+Bytes:   2079659
+.\dataset\pear\0a8b7d05-1025-4ece-b051-57c146395099.jpg
+.\dataset\pear\cca76aad-ecda-499f-a202-54444664c27a.jpg
+Bytes:   2099581
+.\dataset\pear\5d98fbf2-2446-4e88-9587-2f4514c3e8d3.jpg
+.\dataset\pear\d9c3471d-c188-4098-8620-245ec91ea974.jpg
+Bytes:   2127136
+.\dataset\pear\8356e450-231c-4eea-85ea-2c626caa7edc.jpg
+.\dataset\pear\9c08fe9d-e955-44cf-a37b-500185a9e6e9.jpg
+Bytes:   2128913
+.\dataset\pear\224a00d3-5663-40a4-b39f-e278e5c043a4.jpg
+.\dataset\pear\4f456d43-79b4-4df5-9610-225a4e80bc80.jpg
+Bytes:   2157940
+.\dataset\pear\19c7c15b-e30d-4f64-b277-b2492885d87f.jpg
+.\dataset\pear\2b5e6830-bcda-4ffe-8db9-0fc06708da86.jpg
+Bytes:   2180425
+.\dataset\pear\96989d01-117d-48b1-9a6e-02208e6cb4d8.jpg
+.\dataset\pear\afdf2a2e-a430-4593-91cb-0e45d38c9311.jpg
+Bytes:   2242470
+.\dataset\pear\49104157-4efe-439e-8e02-97d1477a3f0a.jpg
+.\dataset\pear\7f3f86fd-39c8-4c8d-b728-9db6f2920ed1.jpg
+.\dataset\pear\e6a40030-4812-410e-9638-5b53966f5b70.jpg
+.\dataset\pear\f4ee4dc9-cc02-41ad-8efb-b88be791515f.jpg
+Bytes:   2247692
+.\dataset\pear\59237deb-9dd6-4972-b15e-b279b415c0c7.jpg
+.\dataset\pear\f334d80a-5e85-4560-a96a-6221156803ac.jpg
+Bytes:   2320451
+.\dataset\pear\9105fa0d-1471-49a0-a12b-98febe7c6998.jpg
+.\dataset\pear\f73454bc-a1fd-4347-a244-618ca94bbcb6.jpg
+Bytes:   2329580
+.\dataset\pear\a6cec23e-f967-4270-aac0-4fc121d6ceff.jpg
+.\dataset\pear\ee1a487e-cd4d-43b6-a63a-f99649f0e4a2.jpg
+Bytes:   2337783
+.\dataset\pear\38825442-7d65-4355-8788-e53a984f3850.jpg
+.\dataset\pear\e53dacf5-87a9-4f94-be6a-6f115bb4aaaa.jpg
+.\dataset\pear\e71fc8ba-73f8-4f77-a83a-53bc384b166e.jpg
+Bytes:   2350831
+.\dataset\pear\61b2b9af-d6a6-43ff-966c-926f0a98a3e0.jpg
+.\dataset\pear\e6072c29-77d3-4ced-a626-8a8d26bf2c8a.jpg
+Bytes:   2421407
+.\dataset\pear\46e03c97-9f7e-40a1-afc0-ea716e623636.jpg
+.\dataset\pear\85400731-c067-4e5d-85d4-d809b2846729.jpg
+Bytes:   2517710
+.\dataset\pear\6ed53c9e-eda2-4e7d-8756-bb6b399fbf20.jpg
+.\dataset\pear\6eef6ba8-d7ed-458d-ac0a-945dfd49844f.jpg
+Bytes:   2537052
+.\dataset\pear\7bd8c5c2-3353-435b-97b8-7ee5c327ddc9.jpg
+.\dataset\pear\7e5c5954-f303-4f80-94e0-ad26b40ea092.jpg
+Bytes:   2548966
+.\dataset\pear\8870bc60-86e8-4a1b-bf94-2a3ae0df92f3.jpg
+.\dataset\pear\962c70e4-89dc-4761-aa68-bcb21be13885.jpg
+Bytes:   2634462
+.\dataset\pear\6f09a3fa-6a09-41ac-ba7c-e96f35570488.jpg
+.\dataset\pear\c4d615b3-8d7f-454c-8b64-8bedba725419.jpg
+Bytes:   2656267
+.\dataset\pear\1f6825de-652e-41c3-a807-cd192e8c8163.jpg
+.\dataset\pear\d217f57c-c4b5-4b79-99f6-f897ce6eb40c.jpg
+Bytes:   2929184
+.\dataset\pear\686a296b-ed78-40f2-8897-0549c7506340.jpg
+.\dataset\pear\e9fe731d-91bb-434a-a1c1-a85ddffa34b1.jpg
+Bytes:   3163647
+.\dataset\pear\1a991c8b-da6d-4b0d-a0cf-606433b8d275.jpg
+.\dataset\pear\2d2883bd-b94e-493c-ae0d-a311c9b8ffe8.jpg
+Bytes:   3240631
+.\dataset\pear\105c11ea-d778-420e-9ac1-134786b6f0d8.jpg
+.\dataset\pear\5fd0d5b9-8d96-4679-8f21-f45cb6de5c78.jpg
+Bytes:   3311159
+.\dataset\pear\91fb4008-6a8a-4b70-b7c5-a52bc68ddc30.jpg
+.\dataset\pear\c8c7e8b0-5524-4031-8728-177ae0f1cb30.jpg
+Bytes:   3525680
+.\dataset\pear\0845ea11-bb6c-40b6-939c-e22ad093cb52.jpg
+.\dataset\pear\56523d2f-4ea1-41a9-8744-2b4b1a86c1e8.jpg

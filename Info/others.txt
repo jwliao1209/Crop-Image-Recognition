@@ -1,0 +1,9 @@
+===================================
+Folder:    others
+===================================
+Bytes:    677884
+.\dataset\others\0a4c3ee1-3f5c-4c8a-80b2-11045fe1e4d5.jpg
+.\dataset\others\1b70824a-4b39-45b4-ad64-8c2eeecccba9.jpg
+Bytes:   6001169
+.\dataset\others\05680111-9d99-468d-bf98-6ba0981461d4.jpg
+.\dataset\others\4a2dbaa1-3a2e-4a44-a4e1-dc5da1260ff9.jpg

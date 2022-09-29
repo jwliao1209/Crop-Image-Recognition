@@ -1,0 +1,15 @@
+===================================
+Folder:chinesechives
+===================================
+Bytes:    936028
+.\dataset\chinesechives\19391f1d-e03d-4379-a4e2-9d61698f170e.jpg
+.\dataset\chinesechives\2b5738e8-c3be-47fd-96de-4c72dae2aef8.jpg
+Bytes:   1450174
+.\dataset\chinesechives\e2e39cf8-d32e-49b7-a7a2-371f273d51c7.jpg
+.\dataset\chinesechives\e5006b63-8e4a-4d42-b491-07f1aa3daf52.jpg
+Bytes:   2745950
+.\dataset\chinesechives\30417efe-6d63-4771-b184-4d2b40f35efa.jpg
+.\dataset\chinesechives\5b9d5ba0-90aa-4041-9078-aea1c7d86bf1.jpg
+Bytes:   5028141
+.\dataset\chinesechives\67a30aac-d14d-465d-8a72-89d38d286288.jpg
+.\dataset\chinesechives\8a0ca0f1-e313-4a78-886a-250cd2dc40c1.jpg
