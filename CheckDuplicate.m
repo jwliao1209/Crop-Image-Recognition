@@ -1,8 +1,8 @@
 clc;clear;close all
 
-loc = "D:\PrivateYC\AICUP\dataset";
+loc = ".\dataset";
 Visualize = 0;
-WriteDuplicate = 1;
+WriteDuplicate = 0;
 
 FolderList = dir("dataset");FolderList  = FolderList(3:end);
 TotalCtr = 0;
