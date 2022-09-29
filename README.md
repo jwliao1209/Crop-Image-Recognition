@@ -1,6 +1,6 @@
 # Crop_Classification
 
-### 2022/09/29 新增 `--train_num` `--valid_num` 可以決定要放多少訓練資料驗證資料進去訓練(基於同一個fold_0不變下)
+<!-- ### 2022/09/29 新增 `--train_num` `--valid_num` 可以決定要放多少訓練資料驗證資料進去訓練(基於同一個fold_0不變下) -->
 
 HackMD https://hackmd.io/@sam23582211/SkNkYCaWj
 ```
