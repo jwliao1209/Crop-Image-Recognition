@@ -5,6 +5,7 @@ Visualize = 0;
 WriteDuplicate = 0;
 
 FolderList = dir("dataset");FolderList  = FolderList(3:end);
+%%
 TotalCtr = 0;
 for  i = 1:numel(FolderList)
     folder = FolderList(i).name;
