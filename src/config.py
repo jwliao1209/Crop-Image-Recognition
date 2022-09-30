@@ -8,7 +8,8 @@ from src.optimizer import ranger21
 # from src.models.cswin import CSWin_96_24322_base_384, load_cswin_checkpoint
 # from src.models.convnext import ConvNeXt_B
 from src.models.efficientnet_b4 import EfficientNetB4
-from torchvision.models import densenet121
+from src.models.densenet121 import DenseNet121
+# from torchvision.models import densenet121
 
 def get_model(args):
     Model = {
@@ -16,7 +17,7 @@ def get_model(args):
         #'Swin': SwinTransformer,
         #'CSwin': CSWin_96_24322_base_384,
         'EfficientB4': EfficientNetB4,
-        'DenseNet121':densenet121,
+        'DenseNet121':DenseNet121,
     }
     model = Model[args.model](num_classes=args.num_classes)
 
@@ -28,8 +29,8 @@ def get_model(args):
         model = Weight[args.model](model)
     elif args.pretrain and args.model in ['EfficientB4']:
         model = EfficientNetB4(weights='EfficientNet_B4_Weights.IMAGENET1K_V1', num_classes=args.num_classes)
-    elif args.pretrain and args.model in ['DenseNet121']:
-        model = model(weights=DenseNet121_Weights.IMAGENET1K_V1, num_classes=args.num_classes)
+    #elif args.pretrain and args.model in ['DenseNet121']:
+        #model = model(weights=DenseNet121_Weights.IMAGENET1K_V1, num_classes=args.num_classes)
 
 
     return model
@@ -71,7 +72,8 @@ def get_scheduler(args, optimizer):
         ),
         'cos': torch.optim.lr_scheduler.CosineAnnealingLR(
             optimizer=optimizer,
-            T_max=args.epoch
+            T_max=args.epoch,
+            eta_min=args.lr*0.01
         )
     }
     scheduler = Scheduler[args.scheduler]
