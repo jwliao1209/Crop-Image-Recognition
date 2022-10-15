@@ -2,7 +2,9 @@
 
 <!-- ### 2022/09/29 新增 `--train_num` `--valid_num` 可以決定要放多少訓練資料驗證資料進去訓練(基於同一個fold_0不變下) -->
 
-HackMD https://hackmd.io/@sam23582211/SkNkYCaWj
+HackMD : https://hackmd.io/@sam23582211/SkNkYCaWj  
+CSV record : https://docs.google.com/spreadsheets/d/184lMG54i9AlbHJtmzxLVR5S3WXctsajP2TbE0wgKWwc/edit#gid=0  
+
 ```
    ├── dataset
    │   │   ├── longan
