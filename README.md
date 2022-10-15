@@ -17,6 +17,15 @@ HackMD https://hackmd.io/@sam23582211/SkNkYCaWj
    │   │   ├── roseapple
    │   │   │   ├── 00a2c035-c5c4-4b2f-aca9-c3f4f99de193.jpg
    │   │    ...
+   │   │
+   │   ├── Crop_Public % Public validation data set
+   │   │   ├── 0
+   │   │   ├── 1
+   │   │   ├── ...
+   │   │   ├── a
+   │   │   ├── b
+   │   │   ├── ...
+   │   │   ├── f
    ├── src
    │   ├── transform.py
    │   ├── dataset.py
