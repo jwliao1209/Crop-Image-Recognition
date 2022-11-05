@@ -78,6 +78,53 @@ class NormalizeImaged(BaseTransform):
         return self.normal(single_data.float())
 
 
+class GridMask():
+
+    def __init__(self, shape=(32, 32), dmin=5, dmax=10, ratio=0.7, p=0.3):
+        self.shape = shape
+        self.dmin = dmin
+        self.dmax = dmax
+        self.ratio = ratio
+        self.p = p
+
+    def __call__(self, img):
+        if random.random() > self.p:
+            return img 
+        d = random.randint(self.dmin, self.dmax)
+        dx, dy = random.randint(0, d-1), random.randint(0, d-1)
+        sl = int(d * (1-self.ratio))
+        for i in range(dx, self.shape[0], d):
+            for j in range(dy, self.shape[1], d):
+                row_end = min(i+sl, self.shape[0])
+                col_end = min(j+sl, self.shape[1])
+                img[:, i:row_end, j:col_end] = 0
+        return img
+
+    def reset(self, h, w):
+        self.shape = (h,w)
+        self.dmin = np.min([h,w])//6
+        self.dmax = np.max([h,w])//3
+
+
+class GridMaskd(BaseTransform):
+    '''
+    shape : the region might be drawn in black square masks, default is all pic
+    dmin  : region of the black square mask (min), default min([h,w])//6
+    dmax  : region of the black square mask (max), default min([h,w])//3
+    ratio : the maintenance rate in the given square mask 
+    p     : the probability of applying grid mask method
+    '''
+    def __init__(self, keys, **kwargs):
+        super(GridMaskd, self).__init__(keys, **kwargs)
+        self.grid_mask = GridMask()
+
+    def _process(self, single_data, **kwargs):
+        [c, h, w] = single_data.shape
+        self.grid_mask.reset(h,w)
+        return self.grid_mask(single_data)
+
+
+
 ##########################################################################################
 from torchvision.transforms import (RandomHorizontalFlip,
                                     RandomOrder,
