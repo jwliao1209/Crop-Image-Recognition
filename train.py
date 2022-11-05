@@ -33,7 +33,7 @@ if __name__ == '__main__':
                         help='batch size')
     parser.add_argument('-agbs', '--accumulate_grad_bs', type=int, default=1,
                         help='accumulate gradient batches')
-    parser.add_argument('--model', type=str, default='EfficientB4',
+    parser.add_argument('--model', type=str, default='efficientnet_b0',
                         help='model')
     parser.add_argument('-cls', '--num_classes', type=int, default=33,
                         help='number of classes')
@@ -45,13 +45,13 @@ if __name__ == '__main__':
                         help='loss function')
     parser.add_argument('--optim', type=str, default='AdamW',
                         help='optimizer')
-    parser.add_argument('--lr', type=float, default=1e-3,
+    parser.add_argument('--lr', type=float, default=3e-4,
                          help='initial learning rate')
     parser.add_argument('--weight_decay', type=float, default=1e-4,
                         help='weight decay')
     parser.add_argument('--scheduler', type=str, default='step',
                         help='learning rate schedule')
-    parser.add_argument('--step_size', type=int, default=3,
+    parser.add_argument('--step_size', type=int, default=2000,
                         help='learning rate decay period')
     parser.add_argument('--gamma', type=float, default=0.8,
                         help='learning rate decay factor')

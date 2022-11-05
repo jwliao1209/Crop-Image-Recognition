@@ -40,7 +40,6 @@ class Trainer():
 
         for i, data in enumerate(train_bar):
             pred, label, loss, acc = self.__share_step(data)
-
             loss.backward()
             if (i+1) % self.args.accumulate_grad_bs == 0:
                 self.__update_grad()
@@ -78,7 +77,7 @@ class Trainer():
             label_list.extend(label.cpu().tolist())
             val_bar.set_postfix(recorder.get_iter_record())
 
-        f1_dict, wp = compute_wp_f1(pred_list, label_list)   
+        f1_dict, wp = compute_wp_f1(pred_list, label_list)
         self.log.add(**recorder.get_epoch_record())
 
         if min(f1_dict.values()) >= BASELINE_F1_SCORE:
@@ -96,19 +95,19 @@ class Trainer():
         loss = self.criterion(pred, label)
         acc = compute_acc(pred, label)
 
+        del image
+
         return pred, label, loss, acc
 
     def set_model_device(self):
         self.model = self.model.data_parallel(self.args.device)
         self.model.to(self.device)
-
         return
 
     def __update_grad(self):
         self.optimizer.step()
         self.optimizer.zero_grad()
         self.lr_scheduler.step()
-
         return
 
     def fit(self):

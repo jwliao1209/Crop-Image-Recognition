@@ -1,15 +1,17 @@
 #!/bin/bash
 
 python3 train.py --model efficientnet_b0 \
-                 --image_size 768 \
+                 --image_size 1080 \
                  -ep 100 \
-                 -bs 32 \
+                 -bs 20 \
                  -agbs 1 \
                  --loss FL \
                  --lr 3e-4 \
-                 --step_size 2000 \
+                 --step_size 5000 \
                  --fold 1 \
-                 --device 2 3
+                 --device 0 1 \
+                 --num_workers 16 \
+                 --autoaug 1
 
 
 # python3 train.py --model swin_s \

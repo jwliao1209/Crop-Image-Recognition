@@ -25,8 +25,8 @@ def compute_wp_f1(y_pred, y_true, eps=1e-20):
         FP = sum(confusion[:, i]) - TP
         FN = sum(confusion[i, :]) - TP
 
-        precision = TP / (TP + FP + eps)
-        recall = TP / (TP + FN + eps)
+        precision = (TP + eps) / (TP + FP + eps)
+        recall = (TP + eps) / (TP + FN + eps)
         result_f1 = (2 * precision  * recall + eps) / (precision + recall + eps)
 
         TP_list.append(TP)
@@ -36,10 +36,9 @@ def compute_wp_f1(y_pred, y_true, eps=1e-20):
         precision_list.append(precision)
 
     total_image = y_pred.shape[0]
-    weighted = 0.
-
-    for i in range(len(confusion)):
-        weighted += precision_list[i] * (TP_list[i] + FN_list[i])
+    weighted = sum([
+        precision_list[i] * (TP_list[i] + FN_list[i])
+        for i in range(len(confusion))])
 
     WP = weighted / total_image
 

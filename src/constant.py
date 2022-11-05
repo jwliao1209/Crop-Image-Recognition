@@ -4,7 +4,7 @@ from .utils import get_time
 
 
 RANDOM_SEED   = 614
-BASELINE_F1_SCORE = 0.6
+BASELINE_F1_SCORE = 0.7
 TEST_BS = 1
 
 DATA_ROOT     = './dataset'
