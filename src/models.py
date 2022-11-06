@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 
-from torchvision.models import efficientnet_b0, swin_s, convnext_small
+from torchvision.models import efficientnet_b0, regnet_y_16gf, swin_s, convnext_small
 
 __all__ = ["BaseModule"]
 

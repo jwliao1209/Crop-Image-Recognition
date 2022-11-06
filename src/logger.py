@@ -15,7 +15,7 @@ class Logger():
         return
 
     def print_(self, **inputs):
-        print(', '.join(f"{k}: {v}" for k, v in zip(inputs.keys(), inputs.values())))
+        print(', '.join(f"{k}: {v}" for k, v in zip(inputs.items())))
         return
 
     def save(self):

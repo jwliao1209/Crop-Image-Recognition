@@ -28,9 +28,9 @@ class CropDataset(Dataset):
     
     def __len__(self):
         return len(self.data_list)
-    
+
     def __getitem__(self, i):
-        data = self.data_list[i]        
+        data = self.data_list[i].copy()
         return self.transform(data) if self.transform else data
 
 
@@ -41,12 +41,18 @@ def get_train_val_loader(args):
     val_set = CropDataset(data_list['val'], val_transforms)
 
     train_loader = DataLoader(
-        train_set, batch_size=args.batch_size,
-        shuffle=True, num_workers=args.num_workers)
+        train_set,
+        batch_size=args.batch_size,
+        shuffle=True,
+        num_workers=args.num_workers
+        )
 
     val_loader = DataLoader(
-        val_set, batch_size=args.batch_size,
-        shuffle=False, num_workers=args.num_workers)
+        val_set,
+        batch_size=args.batch_size,
+        shuffle=False,
+        num_workers=args.num_workers
+        )
 
     return train_loader, val_loader
 
@@ -67,7 +73,6 @@ def get_transforms_v1(args):
         ResizeImaged(keys=['image'],
                      size=(args.image_size, args.image_size)),
         # RandomFlipRot90(keys=['image']),
-        # VisualizeImaged(keys=['image']),
         RandFlipd(keys=['image'], prob=0.5, spatial_axis=0),
         RandFlipd(keys=['image'], prob=0.5, spatial_axis=1),
         ToTensord(keys=['image', 'label']),
@@ -83,7 +88,7 @@ def get_transforms_v1(args):
         ToTensord(keys=['image', 'label']),
         NormalizeImaged(keys=['image']),
         ])
-    
+
     test_transforms = Compose([
         ReadImaged(keys=['image']),
         ResizeImaged(keys=['image'],

@@ -12,8 +12,8 @@ class FocalLoss(nn.Module):
 
     def forward(self, x, y):
         if x.dim() > 2:
-            x = x.view(x.size(0), x.size(1),-1)     # (B, C, H, W) -> (B, C, H*W)
-            x = x.transpose(1,2)                    # (B, C, H*W)  -> (B, H*W, C)
+            x = x.view(x.size(0), x.size(1), -1)     # (B, C, H, W) -> (B, C, H*W)
+            x = x.transpose(1, 2)                    # (B, C, H*W)  -> (B, H*W, C)
             x = x.contiguous().view(-1, x.size(2))  # (B, H*W, C)  -> (B*H*W, C)
 
         y = y.view(-1, 1)

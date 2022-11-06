@@ -4,7 +4,7 @@ from .utils import get_time
 
 
 RANDOM_SEED   = 614
-BASELINE_F1_SCORE = 0.7
+BASELINE_F1_SCORE = 0.
 TEST_BS = 1
 
 DATA_ROOT     = './dataset'
@@ -15,7 +15,7 @@ WEIGHT_DIR    = os.path.join(SAVE_DIR, 'weight')
 CONFIG_PATH   = os.path.join(SAVE_DIR, 'config.json')
 LOG_PATH      = os.path.join(SAVE_DIR, 'result.csv')
 
-LABEL_CATEGORY_MAP ={
+LABEL_CATEGORY_MAP = {
     0:  'asparagus',
     1:  'bambooshoots',
     2:  'betel',

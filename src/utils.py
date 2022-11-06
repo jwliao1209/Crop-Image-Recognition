@@ -34,7 +34,7 @@ def fixed_random_seed(seed):
             np.random.seed(seed)
             torch.manual_seed(seed)
             torch.backends.cudnn.deterministic = True
-            torch.backends.cudnn.benchmark = False
+            torch.backends.cudnn.benchmark = True
             func(*args, **kargs)
         return wrap
 
@@ -149,7 +149,7 @@ class AverageMeter():
         return
 
 
-class Recoder():
+class Recorder():
     def __init__(self, ep, mode):
         self.cur_ep = ep
         self.mode = mode

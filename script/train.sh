@@ -8,10 +8,10 @@ python3 train.py --model efficientnet_b0 \
                  --loss FL \
                  --lr 3e-4 \
                  --step_size 5000 \
-                 --fold 1 \
+                 --fold 0 \
                  --device 0 1 \
-                 --num_workers 16 \
-                 --autoaug 1
+                 --num_workers 50 \
+                 --autoaug 0
 
 
 # python3 train.py --model swin_s \
