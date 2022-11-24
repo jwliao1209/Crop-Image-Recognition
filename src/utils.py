@@ -2,7 +2,6 @@ import os
 import re
 import csv
 import glob
-import time
 import json
 import torch
 import random
@@ -27,14 +26,14 @@ def debug_fun(*args, **kwargs):
     return
 
 
-def fixed_random_seed(seed):
+def set_random_seed(seed):
     def decorator(func):
         def wrap(*args, **kargs):
             random.seed(seed)
             np.random.seed(seed)
             torch.manual_seed(seed)
             torch.backends.cudnn.deterministic = True
-            torch.backends.cudnn.benchmark = True
+            torch.backends.cudnn.benchmark = False
             func(*args, **kargs)
         return wrap
 
@@ -144,33 +143,44 @@ class AverageMeter():
         self.count += batch_size
         self.total += value * batch_size
         self.avg = self.total / self.count
+        self.value_str = f"{self.value:.4f}"
         self.avg_str = f"{self.avg:.4f}"
-
-        return
+    
+    def four_decimal_avg_str(self):
+        return f"{self.avg:.4f}"
+    
+    def eight_decimal_val_str(self):
+        return f"{self.value:.8f}"
 
 
 class Recorder():
-    def __init__(self, ep, mode):
-        self.cur_ep = ep
+    def __init__(self):
+        self.reset()
+
+    def reset(self, mode=None, cur_ep=0):
+        self.cur_ep = cur_ep
         self.mode = mode
         self.loss = AverageMeter()
         self.acc = AverageMeter()
-        self.lr = 0
-    
+        self.lr = AverageMeter()
+
+        return
+
     def update(self, loss, acc, bs, lr):
         self.loss.update(loss, bs)
         self.acc.update(acc, bs)
-        self.lr = lr
+        self.lr.update(lr, 1)
 
         return
-    
+
     def get_iter_record(self):
-        record = {}
-        record['loss'] = self.loss.avg_str
-        record['acc'] = self.acc.avg_str
-        record['lr'] = f'{self.lr:.8f}'
+        record = dict(
+            loss=self.loss.four_decimal_avg_str(),
+            acc=self.acc.four_decimal_avg_str(),
+            lr=self.lr.eight_decimal_val_str(),
+            )
 
         return record
-    
+
     def get_epoch_record(self):
         return {'epoch': self.cur_ep, 'type': self.mode, **self.get_iter_record()}

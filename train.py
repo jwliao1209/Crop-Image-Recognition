@@ -1,37 +1,21 @@
 import argparse
 from src.dataset import get_train_val_loader
-from src.config import get_device, get_model, get_criterion, get_optimizer, get_scheduler
+from src.builder import get_device, get_train_model, get_criterion, get_optimizer, get_scheduler
 from src.trainer import Trainer
-from src.utils import fixed_random_seed, save_json
+from src.utils import set_random_seed, save_json
 from src.constant import RANDOM_SEED, CONFIG_PATH
 
 
-@fixed_random_seed(RANDOM_SEED)
-def train(args):
-    train_loader, val_loader = get_train_val_loader(args)
-    device = get_device(args.device[0])
-    model = get_model(args.model, args.num_classes)
-    criterion = get_criterion(args.loss)
-    optimizer = get_optimizer(args, model)
-    lr_scheduler = get_scheduler(args, optimizer)
+def parse_arguments():
+    parser = argparse.ArgumentParser(description='Training')
 
-    trainer = Trainer(
-        model, device,
-        train_loader, val_loader,
-        criterion, optimizer, lr_scheduler, args)
-
-    trainer.fit()
-
-
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--fold', type=int, default=1,
+    parser.add_argument('--fold', type=int, default=0,
                         help='fold')
     parser.add_argument('-ep', '--epoch', type=int, default=200,
                         help='epochs')
     parser.add_argument('-bs', '--batch_size', type=int, default=32,
                         help='batch size')
-    parser.add_argument('-agbs', '--accumulate_grad_bs', type=int, default=1,
+    parser.add_argument('-agbs', '--accum_grad_bs', type=int, default=1,
                         help='accumulate gradient batches')
     parser.add_argument('--model', type=str, default='efficientnet_b0',
                         help='model')
@@ -39,6 +23,8 @@ if __name__ == '__main__':
                         help='number of classes')
     parser.add_argument('--image_size', type=int, default=512,
                         help='crop and resize to img_size')
+    parser.add_argument('--trans', type=str, default='v1',
+                        help='data transforms')
 
     # set optimization
     parser.add_argument('--loss', type=str, default='FL',
@@ -66,6 +52,38 @@ if __name__ == '__main__':
     parser.add_argument('--num_workers', type=int, default=16,
                         help='numbers of workers')
 
-    args = parser.parse_args()
+    return parser.parse_args()
+
+
+@set_random_seed(RANDOM_SEED)
+def train(args):
+    train_loader, val_loader = get_train_val_loader(args)
+    device = get_device(args.device)
+
+    model = get_train_model(
+        model=args.model,
+        num_classes=args.num_classes,
+        device_ids=args.device)
+
+    criterion = get_criterion(loss=args.loss)
+    optimizer = get_optimizer(args, model)
+    lr_scheduler = get_scheduler(args, optimizer)
+
+    trainer = Trainer(
+        model=model,
+        device=device,
+        train_loader=train_loader,
+        val_loader=val_loader,
+        criterion=criterion,
+        optimizer=optimizer,
+        accum_grad_bs=args.accum_grad_bs,
+        lr_scheduler=lr_scheduler
+        )
+
+    trainer.fit(epoch=args.epoch)
+
+
+if __name__ == '__main__':
+    args = parse_arguments()
     save_json(CONFIG_PATH, args)
     train(args)

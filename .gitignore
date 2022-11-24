@@ -1,0 +1,13 @@
+__pycache__/
+dataset/train
+dataset/public
+dataset/mask
+checkpoint/
+tensorboard/
+submission/
+cach/
+*.pyc
+*.pth
+
+compare_outputs.py
+grad_cam.py

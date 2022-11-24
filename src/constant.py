@@ -3,17 +3,22 @@ from datetime import datetime
 from .utils import get_time
 
 
-RANDOM_SEED   = 614
+RANDOM_SEED       = 614
 BASELINE_F1_SCORE = 0.
-TEST_BS = 1
+TEST_BS           = 1
+SAVE_TOPK         = 5
+CUR_TIME          = get_time()
 
-DATA_ROOT     = './dataset'
-SAVE_ROOT     = './checkpoint'
-PRED_DIR      = './submission'
-SAVE_DIR      = os.path.join(SAVE_ROOT, get_time())    
-WEIGHT_DIR    = os.path.join(SAVE_DIR, 'weight')
-CONFIG_PATH   = os.path.join(SAVE_DIR, 'config.json')
-LOG_PATH      = os.path.join(SAVE_DIR, 'result.csv')
+DATA_ROOT    = './dataset'
+SAVE_ROOT    = './checkpoint'
+MONITOR_ROOT = './tensorboard'
+PRED_DIR     = './submission'
+
+SAVE_DIR       = os.path.join(SAVE_ROOT, CUR_TIME)    
+WEIGHT_DIR     = os.path.join(SAVE_DIR, 'weight')
+TENSORBORD_DIR = os.path.join(MONITOR_ROOT, CUR_TIME)
+CONFIG_PATH    = os.path.join(SAVE_DIR, 'config.json')
+LOG_PATH       = os.path.join(SAVE_DIR, 'result.csv')
 
 LABEL_CATEGORY_MAP = {
     0:  'asparagus',
