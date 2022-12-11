@@ -26,10 +26,4 @@ model_config:
     name: cosine
     T_max: 100
     eta_min: 0
-ckpt: ../checkpoint/v2/regent_v1/f1.ckpt
-acc:
-  val_acc: 0.904735313826223
-  test_acc: 0.9033735478105451
-f1:
-  val_f1: 0.9033516608363827
-  test_f1: 0.9017206877121331
+ckpt: ../checkpoint/regnet.ckpt

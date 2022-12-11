@@ -28,10 +28,4 @@ model_config:
     name: cosine
     T_max: 50
     eta_min: 0
-ckpt: ../checkpoint/v4/swin_s_1080/f1.ckpt
-acc:
-  val_acc: 0.897140942595488
-  test_acc: 0.8953306523681859
-f1:
-  val_f1: 0.8956429600268412
-  test_f1: 0.8939233828108336
+ckpt: ../checkpoint/swin_s_1080.ckpt

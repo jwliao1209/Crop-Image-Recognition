@@ -28,10 +28,4 @@ model_config:
     name: warmcosine
     max_epochs: 100
     warmup_epochs: 5
-ckpt: ../checkpoint/v4/swin_b_1080/last.ckpt
-acc:
-  val_acc: 0.9030600848782667
-  test_acc: 0.9030600848782667
-f1:
-  val_f1: 0.90078862985483
-  test_f1: 0.90078862985483
+ckpt: ../checkpoint/swin_b_1080.ckpt
