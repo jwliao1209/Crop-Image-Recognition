@@ -1,0 +1,31 @@
+name: regnet_1080
+savepath: v4
+epoches: 50
+strategy: ddp
+accumulate_batches: 1
+precision: 16
+gradient_clip_val: 5.0
+data_config:
+  batch_size: 16
+  val_batch_size: 32
+  dataroot: /neodata/pathology_breast/aidea/dataset/
+  datalist: /neodata/pathology_breast/aidea/crop_code/datalist/fold_0_v2.json
+  cache: false
+  transforms_config:
+    img_size: 1080
+    random_transform: true
+    random_rotation: false
+model_config:
+  model:
+    num_classes: 33
+    backbone: regnet
+    backbone_num_features: 1000
+  loss: FL
+  use_additional_loss: false
+  optimizer: adamw
+  lr: 0.0001
+  scheduler:
+    name: warmcosine
+    max_epochs: 100
+    warmup_epochs: 5
+ckpt: ../checkpoint/v4/regnet_1080/last.ckpt

@@ -1,0 +1,37 @@
+name: swin_s_1080_v2
+savepath: v3
+epoches: 50
+strategy: ddp
+accumulate_batches: 2
+precision: 16
+gradient_clip_val: 5.0
+data_config:
+  batch_size: 16
+  val_batch_size: 64
+  dataroot: /neodata/pathology_breast/aidea/dataset/
+  datalist: /neodata/pathology_breast/aidea/crop_code/datalist/fold_0.json
+  cache: false
+  transforms_config:
+    img_size: 1080
+    random_transform: true
+    random_rotation: false
+model_config:
+  model:
+    num_classes: 33
+    backbone: swin_s
+    backbone_num_features: 1000
+  loss: FL
+  use_additional_loss: false
+  optimizer: adamw
+  lr: 0.0005
+  scheduler:
+    name: cosine
+    T_max: 50
+    eta_min: 0
+ckpt: ../checkpoint/v3/swin_s_1080_v2/f1.ckpt
+acc:
+  val_acc: 0.8712307348670985
+  test_acc: 0.8700848972296693
+f1:
+  val_f1: 0.869388517768454
+  test_f1: 0.8682811922881609

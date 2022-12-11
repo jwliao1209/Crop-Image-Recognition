@@ -1,0 +1,35 @@
+name: eff_768
+savepath: v3
+epoches: 150
+strategy: ddp
+accumulate_batches: 4
+precision: 16
+data_config:
+  batch_size: 64
+  val_batch_size: 128
+  dataroot: /neodata/pathology_breast/aidea/dataset/
+  datalist: /neodata/pathology_breast/aidea/crop_code/datalist/fold_0.json
+  cache: false
+  transforms_config:
+    img_size: 768
+    random_transform: true
+    random_rotation: false
+model_config:
+  model:
+    num_classes: 33
+    backbone: efficient
+    backbone_num_features: 1000
+  loss: FL
+  optimizer: adamw
+  lr: 0.0001
+  scheduler:
+    name: cosine
+    T_max: 150
+    eta_min: 0
+ckpt: ../checkpoint/v3/eff_768/f1.ckpt
+acc:
+  val_acc: 0.8954657136475318
+  test_acc: 0.8901921358355674
+f1:
+  val_f1: 0.8940572131369329
+  test_f1: 0.8882589785964358
