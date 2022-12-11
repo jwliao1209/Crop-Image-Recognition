@@ -1,4 +1,4 @@
-name: swinb_v1
+name: swin_b
 savepath: v2
 epoches: 100
 strategy: ddp
