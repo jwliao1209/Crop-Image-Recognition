@@ -94,8 +94,8 @@ class LitModel(LightningModule):
         
         self.linear = nn.Linear(config["model"]["backbone_num_features"], config["model"]["num_classes"])
         self.loss_function = get_loss(config["loss"])
-        # self.use_additional_loss = config.get("use_additional_loss", False)
-        # self.additional_loss = AngularPenaltySMLoss(in_features=1000, out_features=33, loss_type="arcface")
+        self.use_additional_loss = config.get("use_additional_loss", False)
+        self.additional_loss = AngularPenaltySMLoss(in_features=1000, out_features=33, loss_type="arcface")
 
     def forward(self, x : torch.Tensor) :
         feats = self.model(x)
