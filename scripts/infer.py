@@ -72,7 +72,7 @@ def main(args):
                         accelerator="ddp", 
                         num_sanity_val_steps=0)
     
-    model = LitModel.load_from_checkpoint(config["ckpt"])
+    model = LitModel.load_from_checkpoint(config["ckpt"], strict=False)
 
     predict(trainer, model, val_loader, config["name"], "val", val_id)
     print("End validation prediction ...")
