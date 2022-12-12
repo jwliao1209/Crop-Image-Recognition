@@ -52,12 +52,13 @@ def predict(trainer, model, loader, savename, data_id):
     name = ['filename', 'label']
     infer_result = pd.DataFrame(columns=name, data = results)
     infer_result["label"] = infer_result["label"].map(mapping)
-    infer_result.to_csv('../public/'+savename+'.csv',index=None)
+    infer_result = infer_result.sort_values(by="filename")
+    infer_result.to_csv('../private/'+savename+'.csv',index=None)
 
 
 def main(args):
     config = yaml.full_load(open(args.config))
-    data_list = json.load(open("../datalist/public.json"))
+    data_list = json.load(open("../datalist/public_private.json"))
     ids = [i["image"].split("/")[-1] for i in data_list]
 
     ds = Dataset(data=data_list, transform=val_transforms(**config["data_config"]["transforms_config"]))
