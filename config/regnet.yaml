@@ -1,4 +1,4 @@
-name: regent
+name: regnet
 savepath: v2
 epoches: 100
 strategy: ddp
