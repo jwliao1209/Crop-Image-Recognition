@@ -62,3 +62,5 @@ ckpt: ../checkpoint/swin_s_1080.ckpt
 * 請在 config file 內指定你要的 checkpoint 路徑
 * 使用範例: 進入到 command 資料夾中，執行 `source infer_public.sh ../config/regnet.yaml` (可以在 `.sh` 裡面調整使用哪張 GPU)
 
+## Contact
+有關此份 code 的操作問題可以聯絡: rex19981002@gmail.com
