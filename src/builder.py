@@ -1,5 +1,6 @@
 import os
 import argparse
+
 import torch
 import torch.nn as nn
 
@@ -27,19 +28,20 @@ def get_train_model(model, num_classes, device_ids):
 
 
 def get_model(model, num_classes):
-    Model = {
-        'efficientnet_b0': EfficientNet_B0,
-        'regnet_y_16':     RegNet_Y_16,
-        'vit_l':           ViT_L,
-        'swin_s':          Swin_S,
-        'swin_v2_b':       Swin_V2_B,
-        'convnext_s':      ConvNext_S,
-        'convnext_b':      ConvNext_B,
-    }
+    Model = dict(
+        efficientnet_b0=EfficientNet_B0,
+        regnet_y_16=RegNet_Y_16,
+        vit_l=ViT_L,
+        swin_s=Swin_S,
+        swin_v2_b=Swin_V2_B,
+        convnext_s=ConvNext_S,
+        convnext_b=ConvNext_B,
+    )
+
     return Model[model](num_classes)
 
 
-def get_topk_models(args, device):
+def get_topk_models(args, device=None):
     models = []
     for ckpt in args.checkpoint:
         tmp_args = load_json(os.path.join('checkpoint', ckpt, 'config.json'))
@@ -52,19 +54,21 @@ def get_topk_models(args, device):
 
 
 def get_criterion(loss):
-    Losses = {
-        'CE':   nn.CrossEntropyLoss,
-        'FL':   FocalLoss,
-    }
+    Losses = dict(
+        CE=nn.CrossEntropyLoss,
+        FL=FocalLoss
+        )
+
     return Losses[loss](label_smoothing=0.1)
 
 
 def get_optimizer(args, model):
-    Optimizer = {
-        'SGD':   torch.optim.SGD,
-        'Adam':  torch.optim.Adam,
-        'AdamW': torch.optim.AdamW,
-    }
+    Optimizer = dict(
+        SGD=torch.optim.SGD,
+        Adam=torch.optim.Adam,
+        AdamW=torch.optim.AdamW
+        )
+
     optimizer = Optimizer[args.optim](
         model.parameters(),
         lr=args.lr,
@@ -93,17 +97,22 @@ def get_cos_annealing_lr(args, optimizer):
 
 
 def get_warm_up_cos(args, optimizer):
-    scheduler = WarmupCosineSchedule(optimizer, warmup_steps=7161, t_total= 7161 * 50)
+    scheduler = WarmupCosineSchedule(
+        optimizer,
+        warmup_steps=args.train_num,
+        t_total= args.train_num * args.epoch)
+
     return scheduler
 
 
 def get_scheduler(args, optimizer):
-    Scheduler = {
-        'step': get_step_lr,
-        'cos': get_cos_annealing_lr,
-        'warmup_cos': get_warm_up_cos,
-        'cos_annealing': get_cos_annealing
-    }
+    Scheduler = dict(
+        step=get_step_lr,
+        cos=get_cos_annealing_lr,
+        warmup_cos=get_warm_up_cos,
+        cos_annealing=get_cos_annealing
+        )
+
     return Scheduler[args.scheduler](args, optimizer)
 
 
@@ -113,7 +122,7 @@ def get_cos_annealing(args, optimizer):
         6000,
         T_mult=1,
         eta_min=0,
-        last_epoch=- 1,
+        last_epoch=-1,
         verbose=False)
 
     return scheduler

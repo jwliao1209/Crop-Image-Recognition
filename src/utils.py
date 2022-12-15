@@ -163,6 +163,7 @@ class Recorder():
         self.loss = AverageMeter()
         self.acc = AverageMeter()
         self.lr = AverageMeter()
+        self.grad_norm = AverageMeter()
 
         return
 
@@ -178,9 +179,19 @@ class Recorder():
             loss=self.loss.four_decimal_avg_str(),
             acc=self.acc.four_decimal_avg_str(),
             lr=self.lr.eight_decimal_val_str(),
+            grad_norm=self.grad_norm.four_decimal_avg_str(),
             )
 
         return record
 
     def get_epoch_record(self):
         return {'epoch': self.cur_ep, 'type': self.mode, **self.get_iter_record()}
+    
+    def get_record(self):
+        record = dict(
+            loss=self.loss.value,
+            acc=self.acc.value,
+            lr=self.lr.value,
+            grad_norm=self.grad_norm.value,
+            )
+        return record

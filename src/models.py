@@ -18,62 +18,6 @@ class BaseModule(nn.Module):
         return nn.DataParallel(self, device_ids=device_ids)
 
 
-# class EfficientNet_B0(BaseModule):
-#     def __init__(self, num_classes):
-#         super(EfficientNet_B0, self).__init__()
-#         self.conv = nn.Conv2d(4, 3, kernel_size=1, stride=1)
-#         self.backbone = efficientnet_b0(weights='IMAGENET1K_V1')
-#         self.backbone.classifier[1] = nn.Linear(
-#             self.backbone.classifier[1].in_features, num_classes)
-
-#         #self.fc = nn.Linear(self.backbone.classifier[1].out_features, num_classes)
-
-#     def forward(self, inputs):
-#         # return self.fc(self.backbone(inputs))
-#         return self.backbone(self.conv(inputs))
-
-
-class Mlp(nn.Module):
-    def __init__(self,
-                 in_features,
-                 hidden_features=None,
-                 out_features=None,
-                 act_layer=nn.Mish,
-                 drop=0.):
-
-        super().__init__()
-        out_features = out_features or in_features
-        hidden_features = hidden_features or in_features
-        self.fc1 = nn.Linear(in_features, hidden_features)
-        self.act = act_layer()
-        self.fc2 = nn.Linear(hidden_features, out_features)
-        self.drop = nn.Dropout(drop)
-
-    def forward(self, x):
-        x = self.fc1(x)
-        x = self.act(x)
-        x = self.drop(x)
-        x = self.fc2(x)
-        x = self.drop(x)
-
-        return x
-
-
-# class EfficientNet_B0(BaseModule):
-#     def __init__(self, num_classes):
-#         super(EfficientNet_B0, self).__init__()
-#         self.mlp = Mlp(2, 16, 33)
-#         self.backbone = efficientnet_b0(weights='IMAGENET1K_V1')
-#         self.backbone.classifier[1] = nn.Linear(
-#             self.backbone.classifier[1].in_features, num_classes)
-
-#     def forward(self, inputs, coordinate):
-#         x1 = self.mlp(coordinate)
-#         x2 = self.backbone(inputs)
-
-#         return x1 + x2
-
-
 class EfficientNet_B0(BaseModule):
     def __init__(self, num_classes):
         super(EfficientNet_B0, self).__init__()

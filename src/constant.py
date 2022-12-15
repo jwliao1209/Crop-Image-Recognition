@@ -55,3 +55,5 @@ LABEL_CATEGORY_MAP = {
     31: 'tea',
     32: 'waterbamboo'
     }
+
+CATEGORY_LAB_MAP = {v:k for k, v in LABEL_CATEGORY_MAP.items()}

@@ -15,6 +15,10 @@ def parse_arguments():
                         help='epochs')
     parser.add_argument('-bs', '--batch_size', type=int, default=32,
                         help='batch size')
+    parser.add_argument('--train_num', type=int, default=-1,
+                        help='number of training data')
+    parser.add_argument('--val_num', type=int, default=-1,
+                        help='number of validation data')
     parser.add_argument('-agbs', '--accum_grad_bs', type=int, default=1,
                         help='accumulate gradient batches')
     parser.add_argument('--model', type=str, default='efficientnet_b0',

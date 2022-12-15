@@ -13,7 +13,8 @@ from src.constant import LABEL_CATEGORY_MAP, PRED_DIR
 
 @torch.no_grad()
 def infer(args):
-    infer_loader = get_test_loader(args)
+    print(f'Checkpoint: {args.checkpoint}')
+    infer_loader = get_test_loader(args, test_type='public_and_private')
     device = get_device(device_id=0)
     models = get_topk_models(args, device)
     topk_ckpt = get_topk_ckpt(args.checkpoint, args.topk)
@@ -24,8 +25,6 @@ def infer(args):
     pred_list = []
     for data in infer_bar:
         image = data['image'].to(device)
-        # coordinate = data['coordinate'].to(device)
-        # pred_class_idxes = tta.predict(image, coordinate).cpu().numpy()
         pred_class_idxes = tta.predict(image).cpu().numpy()
 
         for filepath, class_idx in zip(data['filepath'], pred_class_idxes):

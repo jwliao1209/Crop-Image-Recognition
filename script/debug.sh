@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python train.py --device 2 --num_workers 0
+python train.py --device 0 --num_workers 0

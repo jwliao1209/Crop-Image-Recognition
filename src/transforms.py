@@ -15,8 +15,10 @@ from torchvision.transforms import (
     Normalize,
     AutoAugment, 
     RandomCrop,
-    CenterCrop
+    CenterCrop,
+    Compose
     )
+from monai.transforms import RandFlipd, ToTensord
 
 
 class BaseTransform(object):
@@ -141,6 +143,56 @@ class ResizeImaged(BaseTransform):
         return self.resize(single_data)
 
 
+class GridMask():
+    def __init__(self, shape=(32, 32), dmin=5, dmax=10, ratio=0.7, p=0.3):
+        self.shape = shape
+        self.dmin = dmin
+        self.dmax = dmax
+        self.ratio = ratio
+        self.p = p
+
+    def __call__(self, img):
+        if random.random() > self.p:
+            return img 
+        d = random.randint(self.dmin, self.dmax)
+        dx, dy = random.randint(0, d-1), random.randint(0, d-1)
+        sl = int(d * (1-self.ratio))
+
+        for i in range(dx, self.shape[0], d):
+            for j in range(dy, self.shape[1], d):
+                row_end = min(i+sl, self.shape[0])
+                col_end = min(j+sl, self.shape[1])
+                img[:, i:row_end, j:col_end] = 0
+
+        return img
+
+    def reset(self, h, w):
+        self.shape = (h,w)
+        self.dmin = np.min([h,w]) // 6
+        self.dmax = np.max([h,w]) // 3
+
+        return
+
+
+class GridMaskd(BaseTransform):
+    '''
+    shape : the region might be drawn in black square masks, default is all pic
+    dmin  : region of the black square mask (min), default min([h,w])//6
+    dmax  : region of the black square mask (max), default min([h,w])//3
+    ratio : the maintenance rate in the given square mask 
+    p     : the probability of applying grid mask method
+    '''
+    def __init__(self, keys, **kwargs):
+        super(GridMaskd, self).__init__(keys, **kwargs)
+        self.grid_mask = GridMask()
+
+    def _process(self, single_data, **kwargs):
+        [c, h, w] = single_data.shape
+        self.grid_mask.reset(h,w)
+
+        return self.grid_mask(single_data)
+
+
 class RandomFlipRot90(BaseTransform):
     def __init__(self, keys, **kwargs):
         super(RandomFlipRot90, self).__init__(keys, **kwargs)
@@ -203,6 +255,74 @@ class VisualizeImaged(BaseTransform):
             exit()
         
         return single_data
+
+
+def transforms_v1(args):
+    train_transforms = Compose([
+        ReadImaged(keys=['image']),
+        ResizeImaged(keys=['image'],
+                     size=(args.image_size, args.image_size)),
+        RandFlipd(keys=['image'], prob=0.5, spatial_axis=0),
+        RandFlipd(keys=['image'], prob=0.5, spatial_axis=1),
+        ToTensord(keys=['image', 'label']),
+        AutoAugmentd(keys=['image'], prob=args.autoaug),
+        NormalizeImaged(keys=['image']),
+    ])
+
+    val_transforms = Compose([
+        ReadImaged(keys=['image']),
+        ResizeImaged(keys=['image'],
+                     size=(args.image_size, args.image_size)),
+        ToTensord(keys=['image', 'label']),
+        NormalizeImaged(keys=['image']),
+        ])
+
+    test_transforms = Compose([
+        ReadImaged(keys=['image']),
+        ResizeImaged(keys=['image'],
+                     size=(args.image_size, args.image_size)),
+        ToTensord(keys=['image']),
+        NormalizeImaged(keys=['image']),
+        ])
+
+    return train_transforms, val_transforms, test_transforms
+
+
+def transforms_v2(args):
+    train_transforms = Compose([
+        ReadImaged(keys=['image']),
+        RandomResizedCropd(keys=['image'],
+                           size=(args.image_size, args.image_size)),
+        RandomFlipRot90(keys=['image']),
+        ToTensord(keys=['image', 'label']),
+        AutoAugmentd(keys=['image'], prob=args.autoaug),
+        NormalizeImaged(keys=['image']),
+    ])
+
+    val_transforms = Compose([
+        ReadImaged(keys=['image']),
+        CentorCropd(keys=['image'], size=(args.image_size)),
+        ToTensord(keys=['image', 'label']),
+        NormalizeImaged(keys=['image']),
+        ])
+
+    test_transforms = Compose([
+        ReadImaged(keys=['image']),
+        CentorCropd(keys=['image'],
+                    size=(args.image_size, args.image_size)),
+        ToTensord(keys=['image']),
+        NormalizeImaged(keys=['image']),
+        ])
+
+    return train_transforms, val_transforms, test_transforms
+
+
+def get_transforms(args):
+    transform_dict = dict(
+        v1=transforms_v1,
+        v2=transforms_v2
+        )
+    return transform_dict[args.trans](args)
 
 
 if __name__ == '__main__':
