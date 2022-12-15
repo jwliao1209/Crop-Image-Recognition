@@ -63,7 +63,7 @@ python inference.py --checkpoint <MONTH-DAY-HOUR-MIN-SEC> --topk <number of mode
 ```
 @misc{
     title  = {crop_classification},
-    author = {Jia-Wei Liao, Yen-Jia Chen, Yi-Chen Hung, Jing-En Hung, Shang-Yen Lee},
+    author = {Jia-Wei Liao, Yen-Jia Chen, Yi-Cheng Hung, Jing-En Hung, Shang-Yen Lee},
     url    = {https://github.com/Jia-Wei-Liao/Crop_Classification},
     year   = {2022}
 }
