@@ -7,6 +7,9 @@ You can download all the files in this repository by cloning this repository:
 git clone https://github.com/Jia-Wei-Liao/Crop_Classification.git
 ```
 
+## Download dataset
+https://drive.google.com/drive/folders/1cZTBzgOuuf3ms6V__71nWlOXtvmT0TxZ?usp=sharing
+
 
 ## Training
 To train the model, you can run this command:
