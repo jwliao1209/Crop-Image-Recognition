@@ -1,0 +1,9 @@
+__pycache__/
+checkpoint/
+dataset/mask
+dataset/private
+dataset/public
+dataset/train
+dataset/mask
+tensorboard/
+tmp/
