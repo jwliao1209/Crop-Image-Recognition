@@ -80,7 +80,7 @@ python inference.py --checkpoint <MONTH-DAY-HOUR-MIN-SEC> \
 To reproduce our submission, please do the following steps:
 1. [Getting the code](https://github.com/Jia-Wei-Liao/Crop_Classification/#Getting-the-code)
 2. [Setting the environment](https://github.com/Jia-Wei-Liao/Crop_Classification/#Setting-the-environment)
-3. [Download dataset and checkpoint](https://github.com/Jia-Wei-Liao/Crop_Classification/#Dataset-and-Checkpoint)
+3. [Download dataset and checkpoint](https://github.com/Jia-Wei-Liao/Crop_Classification/#Download-the-checkpoint)
 4. [Inference](https://github.com/Jia-Wei-Liao/Crop_Classification/#Inference)
 
 
