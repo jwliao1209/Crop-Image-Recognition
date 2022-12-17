@@ -12,6 +12,41 @@ To set the environment, you can run this command: `Python3.7.4`
 ```
 pip install -r requirements.txt
 ```
+## Folder Structure
+```
+   ├── dataset
+   │   │   ├── mask
+   │   │   │   ├── train_mask
+   │   │   │   ├── public_mask
+   │   │   │   └── private_mask
+   │   │   ├── train
+   │   │   │   ├── asparagus
+   │   │   │   ├── ...
+   │   │   │   └── waterbamboo
+   │   │   ├── public
+   │   │   │   ├── 0
+   │   │   │   ├── ...
+   │   │   │   └── f
+   │   │   └── private
+   ├── script
+   │   ├── debug.sh
+   │   ├── infer.sh
+   │   ├── moniter.sh
+   │   └── train.sh
+   ├── src
+   │   ├── builder.py
+   │   ├── constant.py
+   │   └── ...
+   ├── submission
+   │   ├── 11-23-11-31-04_top3_submission.csv
+   │   ├── 11-25-19-31-53_top3_submission.csv
+   │   ├── 12-03-14-52-49_top3_submission.csv
+   │   └── 12-06-10-30-56_top3_submission.csv
+   ├── generate_json_file.py
+   ├── generate_merge_csv.py
+   ├── inference.py
+   └── train.py
+```
 
 ## Download the checkpoint
 You can download and checkpoint from our Google Drive:  
