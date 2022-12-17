@@ -41,17 +41,9 @@ def prepare_set_linux(targetlst, datatype="public", absloc=None):
                            })
     return target_list
 
-absloc = 'neodata/pathology_breast/aidea'
 public_list = prepare_set_linux(pub_targetlst, datatype='public')
 private_list = prepare_set_linux(pri_targetlst, datatype='private')
 total = public_list + private_list
 diction = {"public_and_private":total}
 print(f"total length:{len(total)} in jw")
-# json.dump(total, open(f"{datatype}_yj.json", "w"), indent=4)
-json.dump(diction, open(f"{datatype}_jw.json", "w"), indent=4)
-
-public_list = prepare_set_linux(pub_targetlst, datatype='public', absloc=absloc)
-private_list = prepare_set_linux(pri_targetlst, datatype='private', absloc=absloc)
-total = public_list + private_list
-print(f"total length:{len(total)} in yj")
-json.dump(total, open(f"{datatype}_yj.json", "w"), indent=4)
+json.dump(diction, open(os.path.join("dataset", f"public_and_private.json"), "w"), indent=4)
