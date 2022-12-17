@@ -14,6 +14,10 @@ pip install -r requirements.txt
 ```
 ## Folder Structure
 ```
+   ├── checkpoint (please download from the googledrive we given and put in here)
+   │   │   ├── 11-23-11-31-04
+   │   │   ├── ...
+   │   │   └── 11-25-19-31-53
    ├── dataset
    │   │   ├── mask
    │   │   │   ├── train_mask
