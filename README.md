@@ -8,7 +8,7 @@ git clone https://github.com/Jia-Wei-Liao/Crop_Classification.git
 ```
 
 ## Setting the environment
-To set the environment, you can run this command:
+To set the environment, you can run this command: `Python3.7.4`
 ```
 pip install -r requirements.txt
 ```
