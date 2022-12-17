@@ -1,5 +1,4 @@
 glob2
-monai==0.8.0
 numpy==1.18.5
 opencv-python==4.6.0.66
 pandas==1.2.0
