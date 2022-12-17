@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ```
 
 ## Download the checkpoint
-You can download the dataset and checkpoint from our Google Drive:
+You can download and checkpoint from our Google Drive:
 https://drive.google.com/drive/folders/1cZTBzgOuuf3ms6V__71nWlOXtvmT0TxZ?usp=sharing
 
 
