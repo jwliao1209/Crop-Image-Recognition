@@ -27,7 +27,13 @@ pip install -r requirements.txt
    │   │   │   ├── 0
    │   │   │   ├── ...
    │   │   │   └── f
-   │   │   └── private
+   │   │   ├── private
+   │   │   │   ├── 0
+   │   │   │   ├── ...
+   │   │   │   └── f
+   │   │   ├── fold_0.json
+   │   │   ├── ...
+   │   │   └── public_and_private.json
    ├── script
    │   ├── debug.sh
    │   ├── infer.sh
