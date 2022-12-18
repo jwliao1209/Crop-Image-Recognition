@@ -30,7 +30,7 @@ def main(ckpt_list=None):
     labels = st.mode(label_list)[0][0]
 
     merge_df = pd.DataFrame({'filename': df_list[0]['filename'], 'label': labels})
-    merge_df.to_csv('test.csv', index=False)
+    merge_df.to_csv('result.csv', index=False)
     print(f'Merge size: {labels.shape}')
 
 if __name__ == '__main__':
