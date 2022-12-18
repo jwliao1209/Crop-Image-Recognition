@@ -8,53 +8,61 @@ git clone https://github.com/Jia-Wei-Liao/Crop_Classification.git
 ```
 
 ## Setting the environment
-To set the environment, you can run this command: `Python3.7.4`
+To set the environment, you can run this command:
 ```
+conda create --name crop_cls python=3.7.4
+source activate crop_cls
 pip install -r requirements.txt
 ```
+
+
 ## Folder Structure
 ```
-   ├── checkpoint (please download from the googledrive we given and put in here)
-   │   │   ├── 11-23-11-31-04
-   │   │   ├── ...
-   │   │   └── 11-25-19-31-53
-   ├── dataset
+   ├── checkpoint (Please download from Google Drive)
+   │   │   └── ...
+   │   │     
+   ├── dataset (Please download from AI CUP Competition)
    │   │   ├── mask
-   │   │   │   ├── train_mask
-   │   │   │   ├── public_mask
-   │   │   │   └── private_mask
+   │   │   │   └── ...   
    │   │   ├── train
-   │   │   │   ├── asparagus
-   │   │   │   ├── ...
-   │   │   │   └── waterbamboo
+   │   │   │   └── ... 
    │   │   ├── public
-   │   │   │   ├── 0
-   │   │   │   ├── ...
-   │   │   │   └── f
+   │   │   │   └── ... 
    │   │   ├── private
-   │   │   │   ├── 0
-   │   │   │   ├── ...
-   │   │   │   └── f
+   │   │   │   └── ... 
    │   │   ├── fold_0.json
    │   │   ├── ...
+   │   │   ├── fold_5.json
+   │   │   ├── public.json
    │   │   └── public_and_private.json
+   │   │    
    ├── script
    │   ├── debug.sh
    │   ├── infer.sh
    │   ├── moniter.sh
    │   └── train.sh
+   │
    ├── src
    │   ├── builder.py
    │   ├── constant.py
-   │   └── ...
+   │   ├── dataset.py
+   │   ├── logger.py
+   │   ├── losses.py
+   │   ├── metric.py
+   │   ├── models.py
+   │   ├── scheduler.py
+   │   ├── trainer.py
+   │   ├── transforms.py
+   │   ├── tta.py
+   │   └── utils.py
+   │
    ├── submission
-   │   ├── 11-23-11-31-04_top3_submission.csv
-   │   ├── 11-25-19-31-53_top3_submission.csv
-   │   ├── 12-03-14-52-49_top3_submission.csv
-   │   └── 12-06-10-30-56_top3_submission.csv
+   │   └── ...
+   │
    ├── generate_json_file.py
    ├── generate_merge_csv.py
    ├── inference.py
+   ├── requirement.txt
    └── train.py
 ```
 
