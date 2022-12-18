@@ -68,6 +68,10 @@ source activate crop_cls
 pip install -r requirements.txt
 ```
 
+## Download the dataset
+You can download the dataset from the aidea's website:  
+https://aidea-web.tw/topic/5f632f38-7213-4d4d-bea3-117ff13c1afb
+
 
 ## Download the checkpoint
 You can download the checkpoint from our Google Drive:  
