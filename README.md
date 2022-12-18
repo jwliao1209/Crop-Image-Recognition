@@ -1,18 +1,11 @@
 # Crop_Classification
 
+This repository is code of AI CUP 2022 FALL Crop Image Recognition Competition.
 
 ## Getting the code
 You can download all the files in this repository by cloning this repository:  
 ```
 git clone https://github.com/Jia-Wei-Liao/Crop_Classification.git
-```
-
-## Setting the environment
-To set the environment, you can run this command:
-```
-conda create --name crop_cls python=3.7.4
-source activate crop_cls
-pip install -r requirements.txt
 ```
 
 
@@ -66,8 +59,18 @@ pip install -r requirements.txt
    └── train.py
 ```
 
+
+## Setting the environment
+To set the environment, you can run this command:
+```
+conda create --name crop_cls python=3.7.4
+source activate crop_cls
+pip install -r requirements.txt
+```
+
+
 ## Download the checkpoint
-You can download and checkpoint from our Google Drive:  
+You can download the checkpoint from our Google Drive:  
 https://drive.google.com/drive/folders/1cZTBzgOuuf3ms6V__71nWlOXtvmT0TxZ?usp=sharing
 
 
