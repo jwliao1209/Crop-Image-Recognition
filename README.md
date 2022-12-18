@@ -147,11 +147,11 @@ To reproduce our submission, please do the following steps:
 bash script/reproduce.sh
 ```
 6. [Inference for the yenjia's repository](https://github.com/yenjia/AIdea_crops)
-7. Run the following command to merge all the csv files, then you can get the final csv file on the submission folder.
+7. Run the following command to merge all the csv files, then you can get the final csv file on the submission folder. (According to the file in submission directory)
 ```
 python generate_merge_csv.py
 ```
-
+Then you willl get the `result.csv` file
 
 
 ## Operating System and Device
