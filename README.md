@@ -137,23 +137,20 @@ python inference.py --checkpoint <MONTH-DAY-HOUR-MIN-SEC> \
 
 
 ## Reproducing submission
-To reproduce our submission, please do the following steps:
-1. [Getting the code](https://github.com/Jia-Wei-Liao/Crop_Classification/#Getting-the-code)
-2. [Setting the environment](https://github.com/Jia-Wei-Liao/Crop_Classification/#Setting-the-environment)
-3. [Download the dataset](https://github.com/Jia-Wei-Liao/Crop_Classification/#Download-the-dataset)
-4. [Download the checkpoint](https://github.com/Jia-Wei-Liao/Crop_Classification/#Download-the-checkpoint)
-5. Run the command to get the submissions:
+To reproduce our submission, please do the following steps:  
+**STEP 1:** [Getting the code](https://github.com/Jia-Wei-Liao/Crop_Classification/#Getting-the-code)  
+**STEP 2:** [Setting the environment](https://github.com/Jia-Wei-Liao/Crop_Classification/#Setting-the-environment)  
+**STEP 3:** [Download the dataset](https://github.com/Jia-Wei-Liao/Crop_Classification/#Download-the-dataset)  
+**STEP 4:** [Download the checkpoint](https://github.com/Jia-Wei-Liao/Crop_Classification/#Download-the-checkpoint)  
+**STEP 5:** Run the command to get the submissions:
 ```
 bash script/reproduce.sh
 ```
-6.1 [Inference for the yenjia's repository](https://github.com/yenjia/AIdea_crops)  
-6.2 Move the csv result create from yenjia's repository to submission directory  
-7. Run the following command to merge all the csv files, then you can get the final csv file on the submission folder.  
-  (According to the file in submission directory)  
+**STEP 6:** [Inference for the yenjia's repository](https://github.com/yenjia/AIdea_crops) and move the csv result to submission directory
+**STEP 7:** Run the following command to merge all the csv files, then you can get the `result.csv` file on the submission folder (according to the file in submission directory)  
 ```
 python generate_merge_csv.py
 ```
-Then you willl get the `result.csv` file
 
 
 ## Operating System and Device
