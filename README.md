@@ -144,7 +144,7 @@ To reproduce our submission, please do the following steps:
 **STEP 4:** [Download the checkpoint](https://github.com/Jia-Wei-Liao/Crop_Classification/#Download-the-checkpoint)  
 **STEP 5:** Run the command to get the submissions:
 ```
-bash script/reproduce.sh
+bash reproduce.sh
 ```
 **STEP 6:** [Inference for the yenjia's repository](https://github.com/yenjia/AIdea_crops) and move the csv result to submission directory  
 **STEP 7:** Run the following command to merge all the csv files, then you can get the `result.csv` file on the submission folder (according to the file in submission directory)  
