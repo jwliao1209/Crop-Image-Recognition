@@ -140,8 +140,18 @@ python inference.py --checkpoint <MONTH-DAY-HOUR-MIN-SEC> \
 To reproduce our submission, please do the following steps:
 1. [Getting the code](https://github.com/Jia-Wei-Liao/Crop_Classification/#Getting-the-code)
 2. [Setting the environment](https://github.com/Jia-Wei-Liao/Crop_Classification/#Setting-the-environment)
-3. [Download dataset and checkpoint](https://github.com/Jia-Wei-Liao/Crop_Classification/#Download-the-checkpoint)
-4. [Inference](https://github.com/Jia-Wei-Liao/Crop_Classification/#Inference)
+3. [Download the dataset](https://github.com/Jia-Wei-Liao/Crop_Classification/#Download-the-dataset)
+4. [Download the checkpoint](https://github.com/Jia-Wei-Liao/Crop_Classification/#Download-the-checkpoint)
+5. Run the command:
+```
+bash script/reproduce.sh
+```
+6. [Inference for the yenjia's repository](https://github.com/yenjia/AIdea_crops)
+7. Run the following command, then you can get the final csv file on the submission folder.
+```
+python generate\_merge\_csv.py
+```
+
 
 
 ## Operating System and Device
