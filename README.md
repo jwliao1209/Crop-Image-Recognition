@@ -154,7 +154,7 @@ python generate_merge_csv.py
 
 
 ## Acknowledgement
-We thank another teammate yenjia's repository:  
+We thank the another teammate yenjia's repository:  
 https://github.com/yenjia/AIdea_crops
 
 
