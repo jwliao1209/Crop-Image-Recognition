@@ -153,6 +153,11 @@ python generate_merge_csv.py
 ```
 
 
+## Acknowledgement
+We thank another teammate yenjia's repository:  
+https://github.com/yenjia/AIdea_crops
+
+
 ## Operating System and Device
 We develop the code on Ubuntu 22.04 operating system and use python 3.9.15 version. All trainings are performed on a server with a single NVIDIA 3090 GPU.
 
