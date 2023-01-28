@@ -1,4 +1,4 @@
-# Crop_Classification
+# Crop Image Recognition
 
 This repository is code of AI CUP 2022 Fall Crop Image Recognition Competition. We achieved a public ranking of 9th and a private ranking of 8th, corresponding to scores of 0.9328596 and 0.9344163, respectively.
 
